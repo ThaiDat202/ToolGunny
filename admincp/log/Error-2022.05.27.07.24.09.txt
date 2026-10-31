@@ -1,0 +1,35 @@
+2022-05-27 07:24:09 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)
+2022-05-27 07:24:14 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)
+2022-05-27 07:24:16 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)
+2022-05-27 07:24:16 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)
+2022-05-27 07:24:17 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)
+2022-05-27 07:24:17 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)
+2022-05-27 07:24:18 Error: GetAllPlayer System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Convert.ToInt32(Int64 value)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Tank.Data.BaseBussiness.InitDataReader[T](SqlDataReader reader)
+   at Tank.Data.PlayerBussiness.GetUserSingleByUserID(Int32 UserID)

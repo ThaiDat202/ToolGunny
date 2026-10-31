@@ -1,0 +1,70 @@
+2022-05-23 04:39:19 Error: GetAllAchievementCondition System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementCondition()
+2022-05-23 04:39:19 Error: GetAllAchievementReward System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementReward()
+2022-05-23 04:43:06 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-23 04:43:06 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 04:43:06 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 04:43:08 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-23 04:46:57 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-23 04:46:57 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 04:46:57 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 04:47:00 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-23 04:48:06 Error: GetAllAchievementCondition System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementCondition()
+2022-05-23 04:48:06 Error: GetAllAchievementReward System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementReward()
+2022-05-23 05:05:46 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-23 05:05:46 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:05:46 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:05:48 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-23 05:16:00 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-23 05:16:00 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:16:00 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:16:02 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-23 05:17:46 Error: GetAllAchievementCondition System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementCondition()
+2022-05-23 05:17:46 Error: GetAllAchievementReward System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementReward()
+2022-05-23 05:17:46 Error: GetAllAchievementCondition System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementCondition()
+2022-05-23 05:17:46 Error: GetAllAchievementReward System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementReward()
+2022-05-23 05:18:28 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-23 05:18:28 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:18:28 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:18:30 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-23 05:35:45 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-23 05:35:45 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:35:45 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-23 05:35:48 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()

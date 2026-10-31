@@ -1,0 +1,44 @@
+2022-05-27 07:58:07 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-27 07:58:07 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 07:58:07 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 07:58:10 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-27 09:12:23 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-27 09:12:23 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 09:12:23 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 09:12:24 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-27 09:12:34 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-27 09:12:34 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 09:12:34 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 09:12:36 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()
+2022-05-27 09:16:19 Error: GetAllAchievementCondition System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementCondition()
+2022-05-27 09:16:19 Error: GetAllAchievementReward System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementReward()
+2022-05-27 09:16:19 Error: GetAllAchievementCondition System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementCondition()
+2022-05-27 09:16:19 Error: GetAllAchievementReward System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllAchievementReward()
+2022-05-27 09:24:11 Error: GetAllDailyLeagueRewardGroup System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardGroup()
+2022-05-27 09:24:11 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 09:24:11 Error: GetAllDailyLeagueRewardItem System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllDailyLeagueRewardItem()
+2022-05-27 09:24:14 Error: GetAllMap System.InvalidCastException: Specified cast is not valid.
+   at Tank.Data.ProduceBussiness.InitMapInfo(SqlDataReader reader)
+   at Tank.Data.ProduceBussiness.GetAllMap()

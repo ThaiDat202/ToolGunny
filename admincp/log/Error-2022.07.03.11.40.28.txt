@@ -1,0 +1,4 @@
+2022-07-03 11:40:28 Error: AddGoodsSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.PlayerBussiness.AddGoods(ItemInfo item)
+2022-07-03 11:40:33 Error: AddGoodsSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.PlayerBussiness.AddGoods(ItemInfo item)

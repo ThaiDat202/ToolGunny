@@ -1,0 +1,3 @@
+2022-06-17 19:37:09 Error: LoaderMgr  reLoad template error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GM.Service.Models.ShopGoodsShowListModelView.LoadShopGoodsShowListFromXml(List`1 infos, Dictionary`2& newList)
+   at GM.Service.Models.ShopGoodsShowListModelView.LoadShopGoodsShowList(List`1 infos)

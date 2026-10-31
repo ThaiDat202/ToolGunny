@@ -1,0 +1,990 @@
+2022-10-30 04:00:14 Error: GetAllItemTemplate System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllItemTemplate()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:26 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:01:27 Error: GetAllNewTitle System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllNewTitle()
+2022-10-30 04:11:34 Error: GetAllItemTemplate System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllItemTemplate()

@@ -1,0 +1,373 @@
+2022-05-07 06:02:47 Error: LoaderMgr  reLoad template error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GM.Service.Models.ShopGoodsShowListModelView.LoadShopGoodsShowListFromXml(List`1 infos, Dictionary`2& newList)
+   at GM.Service.Models.ShopGoodsShowListModelView.LoadShopGoodsShowList(List`1 infos)
+2022-05-07 06:03:56 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:56 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:56 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:03:57 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
+2022-05-07 06:04:00 Error: GetAllHomeTempPractice System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tank.Data.ProduceBussiness.GetAllHomeTempPractice()
