@@ -13,7 +13,7 @@
                         <input type="checkbox" id="check-all" name="check-all"><span></span>
                     </label>
                 </th>
-                <th style="width: 346px;" class="text-center">名称</th>
+                <th style="width: 346px;" class="text-center">Tên</th>
                 <th class="text-center">
                     AValue
                 </th>
@@ -24,10 +24,10 @@
                     CValue
                 </th>
                 <th>
-                    结束时间
+                    Ngày kết thúc
                 </th>
                 <th>
-                    操作
+                    vận hành
                 </th>
             </tr>
         </thead>
@@ -60,10 +60,10 @@
                         <td>
                             <div class="col-xs-12" style="margin-bottom:-15px">
                                 <span class="text-primary">
-                                    <em>金额: </em>@Html.TUnset(item.AValue1)
+                                    <em>Xu: </em>@Html.TUnset(item.AValue1)
                                 </span>
                                 <p>
-                                    <span class="text-success"><em>类型: </em>@Html.TPayment(item.APrice1)</span>
+                                    <span class="text-success"><em>Loại: </em>@Html.TPayment(item.APrice1)</span>
                                     @if (item.AUnit > 0)
                                     {
                                         <span class="pull-right text-warning" style="font-size:11px">@Html.TBuyType(item.AUnit, item.BuyType)</span>
@@ -74,10 +74,10 @@
                         <td>
                             <div class="col-xs-12" style="margin-bottom:-15px">
                                 <span class="text-primary">
-                                    <em>金额: </em>@Html.TUnset(item.BValue1)
+                                    <em>Xu: </em>@Html.TUnset(item.BValue1)
                                 </span>
                                 <p>
-                                    <span class="text-success"><em>类型: </em>@Html.TPayment(item.BPrice1)</span>
+                                    <span class="text-success"><em>Loại: </em>@Html.TPayment(item.BPrice1)</span>
                                     @if (item.BUnit > 0)
                                     {
                                         <span class="pull-right text-warning" style="font-size:11px">@Html.TBuyType(item.BUnit, item.BuyType)</span>
@@ -88,10 +88,10 @@
                         <td>
                             <div class="col-xs-12" style="margin-bottom:-15px">
                                 <span class="text-primary">
-                                    <em>金额: </em>@Html.TUnset(item.CValue1)
+                                    <em>Xu: </em>@Html.TUnset(item.CValue1)
                                 </span>
                                 <p>
-                                    <span class="text-success"><em>类型: </em>@Html.TPayment(item.CPrice1)</span>
+                                    <span class="text-success"><em>Loại: </em>@Html.TPayment(item.CPrice1)</span>
                                     @if (item.CUnit > 0)
                                     {
                                         <span class="pull-right text-warning" style="font-size:11px">@Html.TBuyType(item.CUnit, item.BuyType)</span>
@@ -105,9 +105,9 @@
                         <td class="text-center">
                             <div class="btn-group btn-group-xs">
                                 <a href="@Html.Raw(Url.Action("EditShopItem","Games", new { id = item.ID, type = "shopsale"}))" class="btn btn-xs btn-warning"
-                                   data-toggle="tooltip" title="编辑" data-modal="editshopsale"><i class="gi gi-edit"></i></a>
+                                   data-toggle="tooltip" title="Chỉnh sửa" data-modal="editshopsale"><i class="gi gi-edit"></i></a>
                                 <a href="@Url.Action("DeleteShopItem", "Users", routeValues: new { id = item.TemplateID })" data-modal="deleteshopsale"
-                                 data-toggle="tooltip"  title="删除" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                 data-toggle="tooltip"  title="Xóa" class="btn btn-danger"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -130,8 +130,8 @@
 <div class="row">
     <div class="col-md-3">
         <div class="btn-group btn-group-sm">
-            <a href="javascript:void(0)" class="btn btn-warning" data-toggle="tooltip" title="Apagar items obter Escolher" data-dialog="get"><i class="fa fa-times"></i></a>
-            <a href="javascript:void(0)" class="btn btn-info" data-toggle="tooltip" title="Gia hạn items obter Escolher" data-dialog="get"><i class="hi hi-repeat"></i></a>
+            <a href="javascript:void(0)" class="btn btn-warning" data-toggle="tooltip" title="Xóa Items được chọn " data-dialog="get"><i class="fa fa-times"></i></a>
+            <a href="javascript:void(0)" class="btn btn-info" data-toggle="tooltip" title="Gia hạn Items được chọn " data-dialog="get"><i class="hi hi-repeat"></i></a>
         </div>
     </div>
     <div class="col-md-6">

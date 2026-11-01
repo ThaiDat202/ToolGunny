@@ -17,50 +17,50 @@
     <form action="@Html.Raw(Url.Action("Edit", "Service", routeValues: new {@id = item.AreaID}))"
           method="post" class="form-horizontal form-bordered" id="frm-edit-areaconfig">
         <div class="form-group">
-            <label class="col-md-3 control-label" for="AreaServer">大区编号</label>
+            <label class="col-md-3 control-label" for="AreaServer">ServerTopID</label>
             <div class="col-md-9">
                 <input type="text" class="form-control input-sm" value="@item.AreaID" disabled />
             </div>
             <input type="hidden" id="AreaID" name="AreaID" value="@item.AreaID">
         </div>        
         <div class="form-group">
-            <label class="col-md-3 control-label" for="AreaServer">大区系统</label>
+            <label class="col-md-3 control-label" for="AreaServer">AreaServer</label>
             <div class="col-md-9">                
                     <input type="text" id="AreaServer" name="AreaServer" class="form-control input-sm" value="@item.AreaServer">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="AreaName">大区名称</label>
+            <label class="col-md-3 control-label" for="AreaName">"AreaName</label>
             <div class="col-md-9">               
                     <input type="text" id="AreaName" name="AreaName" class="form-control input-sm must-required" value="@item.AreaName">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="DataSource">数据库名</label>
+            <label class="col-md-3 control-label" for="DataSource">DataSource</label>
             <div class="col-md-9">               
                     <input type="text" id="DataSource" name="DataSource" class="form-control input-sm must-required" value="@item.DataSource">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Catalog">表名</label>
+            <label class="col-md-3 control-label" for="Catalog">Catalog</label>
             <div class="col-md-9">               
                     <input type="text" id="Catalog" name="Catalog" class="form-control input-sm must-required" value="@item.Catalog">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="UserID">数据库用户名</label>
+            <label class="col-md-3 control-label" for="UserID">UserID</label>
             <div class="col-md-9">               
                     <input type="text" id="UserID" name="UserID" class="form-control input-sm must-required" value="@item.UserID">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Password">数据库密码</label>
+            <label class="col-md-3 control-label" for="Password">Password</label>
             <div class="col-md-9">
                 <input type="text" id="RequestUrl" name="RequestUrl" class="form-control input-sm must-required" value="@item.RequestUrl">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="CrossChatAllow">跨区聊天允许</label>
+            <label class="col-md-3 control-label" for="CrossChatAllow">CrossChatAllow</label>
             <div class="col-md-9">
                 <label class="switch switch-primary">
                     @{
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="CrossPrivateChat">跨区私聊允许</label>
+            <label class="col-md-3 control-label" for="CrossPrivateChat">CrossPrivateChat</label>
             <div class="col-md-9">
                 <label class="switch switch-primary">
                     @{
@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Version">版本</label>
+            <label class="col-md-3 control-label" for="Version">Version</label>
             <div class="col-md-9">
                 <input type="text" id="Version" name="Version" class="form-control input-sm must-required" value="@item.Version">
             </div>

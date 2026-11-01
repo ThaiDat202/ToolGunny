@@ -1,7 +1,7 @@
 ﻿@model SqlDataProvider.Data.ShopItemInfo
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "删除项目";
+    ViewBag.Title = "Xóa项目";
 }
 <div class="modal-header themed-background-fire" style="color:white;">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -18,7 +18,7 @@
         <input type="hidden" value="@Model.Name" id="Name" name="Name" />
         <input type="hidden" value="@Model.ID" id="ID" name="ID" />
         <div class="form-actions text-right">
-            <input class="btn btn-sm btn-danger " type="submit" value="删除道具" />
+            <input class="btn btn-sm btn-danger " type="submit" value="Xóa道具" />
             <input class="btn btn-sm btn-success " type="button" value="Cancelar" data-dismiss="modal" />
         </div>
     </form>

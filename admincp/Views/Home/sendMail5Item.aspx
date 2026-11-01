@@ -296,7 +296,7 @@
 				  for (var i=0;i<vars.length;i++) {
 					var pair = vars[i].split("=");
 					if (pair[0] == variable) {
-					window.location="http://ww2.gamesnexus.com.br/admin/sendMail5Item.aspx";
+					window.location="http://ww2.gamesneSố tiềns.com.br/admin/sendMail5Item.aspx";
 					  return pair[1];
 					}
 				  } 
@@ -948,7 +948,7 @@ Enviar Cupons
                         </tr>
                         <tr>
                             <td class="style1475">
-                            <span class="style1465">Xu (Money):</span></td>
+                            <span class="style1465">Số tiền (Money):</span></td>
                             <td class="style1474">
                             <input id="TxtMoney" value="" class="style1457" type="text" /></td>
                         </tr>

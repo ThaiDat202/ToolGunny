@@ -1,45 +1,45 @@
 ﻿@using MvcPaging;
 @model IPagedList<SqlDataProvider.Data.TopInfo>
 @{
-    Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "LoadSendAward";
+     Layout = "~/Views/Shared/_RenderLayout.cshtml";
+     ViewBag.Title = "LoadSendAward";
 }
 
-    @if (Model.Count() > 0)
-    {
-        <ul class="media-list" style="min-height:532px">           
-            @foreach (var item in Model)
-            {
-                <li class="media">
-                    <div class="media-body">
-                        <span class="text-danger pull-right"><small><em>大区<i class="gi gi-chevron-right" style="font-size:8px"></i>@item.ZoneID</em></small></span>
-                        <a href="@Html.Raw(Url.Action("LoadTopPlayer","Users", new { zid = item.ZoneID, cond1 = item.Condition1, cond2 = item.Condition2, table = item.GetTable }))" 
-                           id="@item.ID"><strong>@item.Name</strong>
-                        </a>
-                        <div>@item.Detail</div>       
-                        <span class="btn-group">
-                            <a href="@Html.Raw(Url.Action("ViewTopAward","Award", new { id = item.ID, zid = item.ZoneID, name=item.Name }))" class="btn btn-xs btn-success" 
-                               data-toggle="tooltip" title="查看奖励" data-modal="viewAward"><i class="fa fa-info-circle"> 查看奖励</i>
-                            </a>                           
-                        </span>                
-                    </div>
-                </li>
-            }
-        </ul>
-        <div class="text-center" style="margin-top:-5px">
-            @Html.Pager(Model.PageSize, Model.PageNumber, Model.TotalItemCount, new AjaxOptions { UpdateTargetId = "top-content", LoadingElementId = "loading-bgr" }).Options(o => o
-                                .DisplayTemplate("_Pagination")
-                                .Action("LoadSendAward")
-                                .AddRouteValue("zid", ViewData["zid"])
-                                .MaxNrOfPages(3))
-        </div>
-    }
-    else
-    {
-        <div class="text-center">
-            @Html.Raw(StaticFunction.GetTranslation("Views.Empty"))
-        </div>
-    }
+     @if (Model. Count() > 0)
+     {
+         <ul class="media-list" style="min-height:532px">
+             @foreach (var item in Model)
+             {
+                 <li class="media">
+                     <div class="media-body">
+                         <span class="text-danger pull-right"><small><em>Region<i class="gi gi-chevron-right" style="font-size:8px"></i>@item. ZoneID</em></small></span>
+                         <a href="@Html.Raw(Url.Action("LoadTopPlayer","Users", new { zid = item.ZoneID, cond1 = item.Condition1, cond2 = item.Condition2, table = item.GetTable })) "
+                            id="@item.ID"><strong>@item.Name</strong>
+                         </a>
+                         <div>@item.Detail</div>
+                         <span class="btn-group">
+                             <a href="@Html.Raw(Url.Action("ViewTopAward","Award", new { id = item.ID, zid = item.ZoneID, name=item.Name }))" class="btn btn -xs btn-success"
+                                data-toggle="tooltip" title="View Award" data-modal="viewAward"><i class="fa fa-info-circle">View Award</i>
+                             </a>
+                         </span>
+                     </div>
+                 </li>
+             }
+         </ul>
+         <div class="text-center" style="margin-top:-5px">
+             @Html.Pager(Model.PageSize, Model.PageNumber, Model.TotalItemCount, new AjaxOptions { UpdateTargetId = "top-content", LoadingElementId = "loading-bgr" }).Options(o => o
+                                 .DisplayTemplate("_Pagination")
+                                 .Action("LoadSendAward")
+                                 .AddRouteValue("zid", ViewData["zid"])
+                                 .MaxNrOfPages(3))
+         </div>
+     }
+     else
+     {
+         <div class="text-center">
+             @Html. Raw(StaticFunction. GetTranslation("Views. Empty"))
+         </div>
+     }
 
 @section Scripts{
     <script>     

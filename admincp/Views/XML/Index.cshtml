@@ -1,26 +1,26 @@
 ﻿@using SqlDataProvider.Data;
 @model List<TableInfo>
 @{
-    ViewBag.Title = "XML工具";
+    ViewBag.Title = "Tool XML";
     UrlTankInfo[] urls = StaticFunction.GetUrls();
 }
 <!-- Header -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-server"></i>@ViewBag.Title<br><small>从官服导入最新数据到数据库 @ViewBag.Message</small>
+            <i class="gi gi-server"></i>@ViewBag.Title<br><small>Import new Data từ Gunny vào Database @ViewBag.Message</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
+    <li>Trang chủ</li>
     <li><a href="javascript:void(0)">@ViewBag.Title</a></li>
 </ul>
 <!-- END Header -->
 <!-- Blank Alternative Content -->
 <div class="block block-alt-noborder">
         <h3 class="sub-header">
-            File <small id="xml-name" class="text-primary">XML查看器</small>
+            File <small id="xml-name" class="text-primary">Người xem XML</small>
             <span class="pull-right" id="total-items-content"></span>
         </h3>
     <!-- HTML -->
@@ -29,7 +29,7 @@
             <div class="form-horizontal">
                 <div class="form-group">
                     <div class="col-md-12">
-                        <select id="urls-chosen" name="urls-chosen" class="select-chosen" data-placeholder="Escolher nguồn...">
+                        <select id="urls-chosen" name="urls-chosen" class="select-chosen" data-placeholder="Chọn nguồn...">
                             @foreach (UrlTankInfo url in urls)
                             {
                                 <option value="@url.Name">@url.Detail</option>
@@ -43,8 +43,8 @@
             <div class="form-horizontal form-control-borderless">
                 <div class="form-group">
                     <div class="col-md-8">
-                        <select id="xmls-chosen" name="xmls-chosen" class="select-chosen" data-placeholder="Escolher Arquivo...">
-                            <optgroup label="最常用的xml">
+                        <select id="xmls-chosen" name="xmls-chosen" class="select-chosen" data-placeholder="Chọn tập tin...">
+                            <optgroup label="XML Thường Dùng">
                                 <option value="newtitleinfo">newtitleinfo</option>
 								<option value="templatealllist">templatealllist</option>
                                 <option value="shopitemlist">shopitemlist</option>
@@ -52,7 +52,7 @@
                                 <option value="balllist">balllist</option>
                                 <option value="bombconfig">bombconfig</option>
                             </optgroup>
-                            <optgroup label="所有xml">
+                            <optgroup label="Tất Cả XML">
                                 @foreach (TableInfo tb in Model)
                                 {
                                     <option value="@tb.XmlName">@tb.XmlName</option>
@@ -71,9 +71,9 @@
             <div class="form-horizontal">
                 <div class="form-group">
                     <div class="col-md-12">
-                        <select id="news-chosen" name="news-chosen" class="select-chosen" data-placeholder="请选择...">
-                            <option value="false">所有</option>
-                            <option value="true">新物品</option>
+                        <select id="news-chosen" name="news-chosen" class="select-chosen" data-placeholder="Xin vui lòng chọn...">
+                            <option value="false">Tất Cả</option>
+                            <option value="true">New Items</option>
                         </select>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="form-group">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="text" id="quick-search" name="key" class="form-control" placeholder="搜索...">
+                                <input type="text" id="quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                                 <span class="input-group-btn">
                                     <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                 </span>

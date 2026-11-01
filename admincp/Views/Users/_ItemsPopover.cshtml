@@ -10,21 +10,21 @@
         {
             case 1:
             case 5:
-                prop = "护甲";
+                prop = "Hộ giáp";
                 break;
             case 27:
             case 7:
-                prop = "伤害";
+                prop = "Sát thương";
                 break;
             case 17:
             case 31:
                 if (item.Template.Property3 == 31)
                 {
-                    prop = "减伤";
+                    prop = "giảm thiệt hại";
                 }
                 else
                 {
-                    prop = "恢复";
+                    prop = "hồi phục";
                 }
                 break;
         }
@@ -48,7 +48,7 @@
              @if (item.StrengthenLevel > 0)
              {
                 <tr>
-                    <td class="text-right"><strong>强化</strong></td>
+                    <td class="text-right"><strong>Cấp độ</strong></td>
                     <td style="width:155px">
                         <span class="text-danger"><strong>@item.StrengthenLevel</strong></span>
                     </td>
@@ -64,15 +64,15 @@
             @if (item.IsGold)
             {
                 <tr>
-                    <td class="text-right"><strong>铸金</strong></td>
+                    <td class="text-right"><strong>Đúc vàng</strong></td>
                     <td>
 						@if (item.goldValidDate == 0)
 						{
-							<span class="text-success">铸金永久有效</span>
+							<span class="text-success">Vĩnh viễn</span>
 						}
 						else
 						{
-							<span class="text-success">铸金有效期: @item.goldValidDate 天</span>
+							<span class="text-success">Hiệu lực đúc vàng: @item.goldValidDate ngày</span>
 						}
 					</td>
                 </tr>
@@ -80,48 +80,48 @@
              @if (item.Template != null && item.Template.NeedSex > 0)
              {
                 <tr>
-                    <td class="text-right"><strong>性别</strong></td>
+                    <td class="text-right"><strong>Giới tính</strong></td>
                     <td>
 					@switch (item.Template.NeedSex)
 					{
 						case 0:
-							<span class="text-muted">无性别</span>
+							<span class="text-muted">Giới tính không</span>
 							break;
 						case 1:
-							<span class="text-muted">男</span>
+							<span class="text-muted">Nam</span>
 							break;
 						case 2:
-							<span class="text-muted">女</span>
+							<span class="text-muted">Nữ</span>
 							break;
 					}
 					</td>
                 </tr>
              }
             <tr>
-                <td class="text-right"><strong>品质</strong></td>
+                <td class="text-right"><strong>Phầm chất</strong></td>
                 <td>
 				@switch (item.Template.Quality)
 				{
                     case 1:
-                        <span class="text-muted">粗糙</span>
+                        <span class="text-muted">Thô</span>
                         break;
                     case 2:
-                        <span style="color:#006600">普通</span>
+                        <span style="color:#006600">Thường</span>
                         break;
                     case 3:
-                        <span style="color:#0000FF">优秀</span>
+                        <span style="color:#0000FF">Ưu tú</span>
                         break;
                     case 4:
-                        <span style="color:#990099">精良</span>
+                        <span style="color:#990099">Hoàn mỹ</span>
                         break;
                     case 5:
-                        <span style="color:#FF9900">卓越</span>
+                        <span style="color:#FF9900">Siêu việt</span>
                         break;
                     case 6:
-                        <span style="color:#FF33FF">传说</span>
+                        <span style="color:#FF33FF">Truyền thuyết</span>
                         break;
                     case 7:
-                        <span style="color:#33CCCC">神器</span>
+                        <span style="color:#33CCCC">Hiện vật</span>
                         break;
                 }
 				</td>
@@ -129,32 +129,32 @@
             @if (!string.IsNullOrEmpty(addBlood))
             {
                 <tr>
-                    <td class="text-right"><strong>血量</strong></td>
+                    <td class="text-right"><strong>HP</strong></td>
                     <td class="text-success">@addBlood</td>
                 </tr>
             }
             <tr>
-                <td class="text-right"><strong>攻击</strong></td>
+                <td class="text-right"><strong>Tấn công</strong></td>
                 <td>@item.Attack</td>
             </tr>
             <tr>
-                <td class="text-right"><strong>防御</strong></td>
+                <td class="text-right"><strong>Phòng thủ</strong></td>
                 <td>@item.Defence</td>
             </tr>
             <tr>
-                <td class="text-right"><strong>敏捷</strong></td>
+                <td class="text-right"><strong>Nhanh nhẹn</strong></td>
                 <td>@item.Agility</td>
             </tr>
             <tr>
-                <td class="text-right"><strong>幸运</strong></td>
+                <td class="text-right"><strong>May mắn</strong></td>
                 <td>@item.Luck</td>
             </tr>
             <tr>
-                <td class="text-right"><strong>魔攻</strong></td>
+                <td class="text-right"><strong>Ma công</strong></td>
                 <td>@item.MagicAttack</td>
             </tr>
             <tr>
-                <td class="text-right"><strong>魔防</strong></td>
+                <td class="text-right"><strong>Ma kháng</strong></td>
                 <td>@item.MagicDefence</td>
             </tr>            
         </tbody>

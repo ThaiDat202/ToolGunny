@@ -1,19 +1,19 @@
 ﻿@{
-    ViewBag.Title = "促销商店";
+    ViewBag.Title = "Khuyến mãi!";
 }
 
 <!-- Blank Alternative Header -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-cart_in"></i>@ViewBag.Title<br><small>促销商店管理!</small>
+            <i class="gi gi-cart_in"></i>@ViewBag.Title<br><small>Khuyến mãi!</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
-    <li>游戏</li>
-    <li><a href="">促销商店</a></li>
+    <li>Trang chủ</li>
+    <li>Games</li>
+    <li><a href="">Khuyến mãi!</a></li>
 </ul>
 <!-- END Blank Alternative Header -->
 
@@ -22,16 +22,16 @@
     <div class="sub-header">
         <div class="row">     
             <div class="col-md-4">
-                <select id="shop-enddate-chosen" name="shop-enddate-chosen" class="select-chosen" data-placeholder="Escolher..">                    
-                    <option value="0">所有商品</option>
-                    <option value="1">有效商品</option>
-                    <option value="2">过期商品</option>
+                <select id="shop-enddate-chosen" name="shop-enddate-chosen" class="select-chosen" data-placeholder="Chọn..">                    
+                    <option value="0">Tất cả</option>
+                    <option value="1">Còn hạn</option>
+                    <option value="2">Hết hạn</option>
                 </select>
             </div>      
             <div class="col-md-4">
                 <form action="./" method="post" id="frm-shop-sale-search" onsubmit="return false;">
                     <div class="input-group">
-                        <input type="text" id="shop-sale-quick-search" name="key" class="form-control" placeholder="搜索...">
+                        <input type="text" id="shop-sale-quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                         <span class="input-group-btn">
                             <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                         </span>
@@ -40,8 +40,8 @@
             </div>
             <div class="col-md-4">
                 <a href="@Html.Raw(Url.Action("AddItemsModel","Games", new { type = "shopsale" }))" class="btn btn-alt btn-sm btn-default pull-right" data-dialog="-1"
-                   data-toggle="tooltip" title="Mais item novos" id="btn-add-shop-sale">
-                    <i class="gi gi-circle_plus text-primary"></i> 添加新商品
+                   data-toggle="tooltip" title="Thêm Item mới" id="btn-add-shop-sale">
+                    <i class="gi gi-circle_plus text-primary"></i> Thêm mục mới
                 </a>
             </div>
         </div>

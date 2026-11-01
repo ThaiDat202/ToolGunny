@@ -1,7 +1,7 @@
 ﻿@model List<SqlDataProvider.Data.BattleBonusInfo>
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "Apagar Item";
+    ViewBag.Title = "Tắt Item";
     string callBackStr = "'" + Request.QueryString["table"] + "', ";
     callBackStr += "'" + Request.QueryString["key"] + "', ";
     callBackStr += Request.QueryString["cid"] == null ? "-1, " : Request.QueryString["cid"] + ", ";
@@ -27,7 +27,7 @@
                  func = "reloadBattleBonus("+ callBackStr + ")" }))"
           class="form-horizontal" id="form-confirm" method="post" role="form">
         <div class="form-actions text-right">
-            <input class="btn btn-sm btn-danger " type="submit" value="Apagar Item" />
+            <input class="btn btn-sm btn-danger " type="submit" value="Tắt Item" />
             <input class="btn btn-sm btn-success " type="button" value="Cancelar" data-dismiss="modal" />
         </div>
     </form>

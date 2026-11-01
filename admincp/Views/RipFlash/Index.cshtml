@@ -56,7 +56,7 @@
                                                 <a href="@Url.Action("ReadDetail", "Games", routeValues: new {table = ViewData["table"], id = item.ID})" data-toggle="tooltip" data-dialog="detailItems"
                                                    title="Editar" class="btn btn-default"><i class="fa fa-pencil"></i></a>
                                                 <a href="@Url.Action("DeleteBox", "Games", routeValues: new {@id = item.ID})" data-toggle="tooltip" data-modal="show"
-                                                   title="Apagar" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                                   title="Tắt" class="btn btn-danger"><i class="fa fa-times"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -104,7 +104,7 @@
                 $("#flash-link-header").text($('a[data-show="' + boxid + '"]').text());
             }
 
-            /*Mais item novos vào box hiện tại*/
+            /*Thêm Item mới vào box hiện tại*/
             $('#btn-add-box-award').bind('click', function (e) {
                 var _id = $(this).attr("data-dialog");
                 var _url = $(this).attr("href") + '&name=' + $("#box-items-header").text();

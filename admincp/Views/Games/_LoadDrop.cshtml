@@ -15,13 +15,13 @@
                     <span class="text-warning pull-right"><small><em>drop id <i class="gi gi-chevron-right" style="font-size:8px"></i>@item.DropId</em></small></span>
                     <a href="@Html.Raw(Url.Action("LoadDropItems","Games", new { id = item.DropId }))" id="@item.DropId">
                         @if (string.IsNullOrEmpty(item.Name))
-                        { <strong>掉落条件 @item.DropId</strong> }
+                        { <strong>Điều kiện thả @item.DropId</strong> }
                         else
                         { <strong>@item.Name</strong> }
                     </a>
                     <div>
                         @if (string.IsNullOrEmpty(item.Detail))
-                        { <span class="text-muted"> 更新 </span> }
+                        { <span class="text-muted"> Refresh </span> }
                         else
                         { <span>@item.Detail </span> }
                     </div>
@@ -29,7 +29,7 @@
                         <a href="@Html.Raw(Url.Action("EditDropCondiction","Games", new { id = item.DropId, page =  Model.PageNumber}))" class="btn btn-xs btn-success"
                            data-toggle="tooltip" title="Sửa" data-modal="editDrop"><i class="fa fa-pencil"></i></a>
                         <a href="@Html.Raw(Url.Action("DeleteDropCondiction","Games", new { id = item.DropId }))" class="btn btn-xs btn-warning"
-                           data-toggle="tooltip" title="Apagar" data-modal="deleteDrop"><i class="fa fa-times"></i></a>
+                           data-toggle="tooltip" title="Tắt" data-modal="deleteDrop"><i class="fa fa-times"></i></a>
                     </span>
                 </div>
             </li>

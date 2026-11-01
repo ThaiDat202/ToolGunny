@@ -14,7 +14,7 @@
             <thead>
                 <tr>
                     <th style="width: 80px;" class="text-center">
-                        <label data-toggle="tooltip" title="Escolher Todos">
+                        <label data-toggle="tooltip" title="Chọn  tất cả">
                             <input type="checkbox">
                             <span></span>
                         </label>
@@ -62,7 +62,7 @@
                                 <a href="@Url.Action("EditData", "Games", routeValues: new {@id1 = item.ID, @id2 = item.TemplateID, @table = "Shop_Goods_Box"})" data-toggle="tooltip" data-modal="editBoxItem"
                                    title="Editar" class="btn btn-default"><i class="fa fa-pencil"></i></a>
                                 <a href="@Url.Action("DeleteData", "Games", routeValues: new {@id = item.ID, @ids = item.TemplateID, @table = "Shop_Goods_Box"})" data-toggle="tooltip" data-modal="deleteBoxItem"
-                                   title="Apagar" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                   title="Tắt" class="btn btn-danger"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -81,7 +81,7 @@
     <div class="col-md-2">
         <div class="btn-group btn-group-sm">
             <a href="@Url.Action("DeleteData", "Games", routeValues: new {@id = id, @table = "Shop_Goods_Box"})" 
-               class="btn btn-primary" data-toggle="tooltip" style="margin-left:15px" title="Apagar Items obter Escolher" id="delete-select-boxitems"><i class="fa fa-times"></i></a>
+               class="btn btn-primary" data-toggle="tooltip" style="margin-left:15px" title="Tắt Items obter Chọn " id="delete-select-boxitems"><i class="fa fa-times"></i></a>
         </div>
     </div>
     <div class="col-md-8">
@@ -126,7 +126,7 @@
                     return this.value;
                 }).toArray();
                 if (_checked.length === 0) {
-                    showGrowl('Bạn Não selecionado item. Vui lòng Escolher và thử lại', 'danger');
+                    showGrowl('Bạn không được chọn item. Vui lòng chọn và thử lại', 'danger');
                     return false;
                 }
                 var params = 'ids=' + _checked;

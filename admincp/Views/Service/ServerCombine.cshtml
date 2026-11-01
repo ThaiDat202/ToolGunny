@@ -6,9 +6,9 @@
 <div class="row">
     <div class="col-md-8" style="border-right: 1px dotted gray">
         <div class="form-group">
-            <label class="col-md-2 control-label text-primary" for="server-chosen-version">选择对应版本</label>
+            <label class="col-md-2 control-label text-primary" for="server-chosen-version">Chọn对应版本</label>
             <div class="col-md-8">
-                <select id="server-chosen-version" name="server-chosen" class="select-chosen" data-placeholder="选择对应版本..." style="width: 250px;">
+                <select id="server-chosen-version" name="server-chosen" class="select-chosen" data-placeholder="Chọn对应版本..." style="width: 250px;">
                     <option value="1">版本3.4</option>
                     <option value="1">版本7.5</option>
                 </select>
@@ -21,7 +21,7 @@
                 <div class="form-group">
                     <label class="col-md-2 control-label" for="server-chosen-a">主服务器</label>
                     <div class="col-md-8">
-                        <select id="server-chosen-a" name="server-chosen" class="select-chosen" data-placeholder="选择服务器..." style="width: 250px;">
+                        <select id="server-chosen-a" name="server-chosen" class="select-chosen" data-placeholder="Chọn máy chủ..." style="width: 250px;">
                             <option value="-1"></option>
                             @foreach (var item in Model.Areas)
                             {
@@ -33,7 +33,7 @@
                 <div class="form-group">
                     <label class="col-md-2 control-label" for="server-chosen-b">合并服务器</label>
                     <div class="col-md-8">
-                        <select id="server-chosen-b" name="server-chosen" class="select-chosen" data-placeholder="选择服务器..." style="width: 250px;">
+                        <select id="server-chosen-b" name="server-chosen" class="select-chosen" data-placeholder="Chọn máy chủ..." style="width: 250px;">
                             <option value="-1"></option>
                             @foreach (var item in Model.Areas)
                             {
@@ -46,7 +46,7 @@
         </div>
         <div class="block">
             <div class="block-title">
-                <h2 class="text-info">返回结果</h2>
+                <h2 class="text-info">Quay lại结果</h2>
                 <div class="btn-group btn-group-sm pull-right" style="margin-top: 3px; margin-right: 15px">
                     <a href="javascript:void(0)" class="btn btn-primary" id="start-process">@StaticFunction.GetTranslation("Server.Combine.Buttom.Process")</a>
                 </div>
@@ -84,7 +84,7 @@
                                         <a href="@Html.Raw(Url.Action("EditEditCombineTable", "Service", new {id = item.ID}))" class="btn btn-xs btn-warning"
                                            data-toggle="tooltip" title="Editar" data-modal="edit"><i class="gi gi-edit"></i></a>
                                         <a href="@Url.Action("DeleteCombineTable", "Service", routeValues: new {id = item.ID})" data-modal="delete"
-                                           data-toggle="tooltip" title="Apagar" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                           data-toggle="tooltip" title="Tắt" class="btn btn-danger"><i class="fa fa-times"></i></a>
                                     </div>
                                 </div>
                             </td>

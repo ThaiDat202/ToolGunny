@@ -1,7 +1,7 @@
 ﻿@model SqlDataProvider.Data.DropItem
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "更新参数";
+    ViewBag.Title = "Refresh参数";
     var item = Model;
     string chek = string.Empty;
     var drop = StaticFunction.GetDropCondiction(item.DropId);
@@ -62,7 +62,7 @@
                     <label class="col-md-4 control-label" for="AutoAdd">Mais tự động</label>
                     <div class="col-md-8">
                         <select id="AutoAdd" name="AutoAdd" class="form-control" style="width: 100%;">
-                            <option>Không Escolher..</option>
+                            <option>Không Chọn..</option>
                             <option value=",2,">Tự động Mais vào DropId @item.DropId có Para2 = ,2,</option>
                             <option value=",3,">Tự động Mais vào DropId @item.DropId có Para2 = ,3,</option>
                             <option value=",4,">Tự động Mais vào DropId @item.DropId có Para2 = ,4,</option>
@@ -126,7 +126,7 @@
 
             <div class="form-group form-actions">
                 <div class="col-md-12 text-right">
-                    <button type="submit" class="btn btn-sm btn-warning btn-submit2"> 更新</button>
+                    <button type="submit" class="btn btn-sm btn-warning btn-submit2"> Refresh</button>
                     <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Fechado</button>
                 </div>
             </div>

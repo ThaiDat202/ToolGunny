@@ -1,124 +1,123 @@
 ﻿@model GM.Service.Models.RegisterViewModel
 @{
-    ViewBag.Title = "注册";
+    ViewBag.Title = "Đăng ký";
 }
 <!-- Header -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="fa fa-list-alt"></i>@ViewBag.Title<br><small>注册管理员面板账号后,请联系LIayuan添加管理权限,否则无法正常使用. @ViewBag.Message</small>
+            <i class="fa fa-list-alt"></i>@ViewBag.Title<br><small>Sau khi đăng ký tài khoản bảng điều khiển quản trị, vui lòng liên hệ với Admin để được cấp quyền quản lý, nếu không sẽ không thể sử dụng bình thường. @ViewBag.Message</small>
         </h1>
     </div>
 </div>
-
 <!-- END Header -->
 
-    <!-- Login Container -->
-    <div id="login-container" class="animation-fadeIn">
-        <!-- Login Title -->
-        <div class="login-title text-center">
-            <h1><i class="gi gi-flash"></i> <strong>史上最屌弹弹堂管理面板</strong>
-            <br>
-            <small><strong>注册</strong></small></h1>
-        </div>
-        <!-- END Login Title -->
-        <!-- Login Block -->
-        <div class="block push-bit">        
-            <!-- Register Form -->
-@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal form-borderless form-control-bordered", role = "form",  @id = "form-register" }))
-{
-    @Html.AntiForgeryToken()
-    @Html.Partial("_Alerts")
-                <div class="form-group">
-                    <div class="col-xs-12">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="gi gi-envelope"></i></span>
-                            <input type="text" id="register-email" name="Email" class="form-control input-lg" placeholder="邮箱">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-12">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
-                            <input type="password" id="register-password" name="Password" class="form-control input-lg" placeholder="密码">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-12">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
-                            <input type="password" id="register-password-verify" name="ConfirmPassword" class="form-control input-lg" placeholder="确认密码">
-                        </div>
-                    </div>
-                </div>              
-                <div class="form-group">
-                    <div class="col-xs-12">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="gi gi-picture"></i></span>
-                            <input type="text" maxlength="8" name="Captcha" id="Captcha" class="form-control input-lg" placeholder="验证码,请注意空格">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-12 text-center">
-                      <a href="javascript:loadCaptcha()"><img id="img-captcha" />   <i class="hi hi-refresh" style="margin-left:15px; font-size:25px"></i></a>  
-                    </div>
-                </div>
-                <div class="form-group form-actions">
-                    <div class="col-xs-9">
-                        <a href="#modal-terms" data-toggle="modal" class="register-terms">确认同意管理组条款</a>
-                        <label class="switch switch-primary">
-                            <input type="checkbox" id="register-terms" name="RegisterTerms">
-                            <span></span>
-                        </label>
-                    </div>
-                    <div class="col-xs-3 text-right">
-                        <button type="submit" class="btn btn-sm btn-success"><i class="fa fa-plus"></i>注册</button>
-                    </div>
-                </div>   
-}
-            <!-- END Register Form -->
-        </div>
-        <!-- END Login Block -->        
+<!-- Login Container -->
+<div id="login-container" class="animation-fadeIn">
+    <!-- Login Title -->
+    <div class="login-title text-center">
+        <h1><i class="gi gi-flash"></i> <strong>Bảng điều khiển quản trị Đột Kích</strong>
+        <br>
+        <small><strong>Đăng ký</strong></small></h1>
     </div>
-    <!-- END Login Container -->
+    <!-- END Login Title -->
+    <!-- Login Block -->
+    <div class="block push-bit">
+        <!-- Register Form -->
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal form-borderless form-control-bordered", role = "form",  @id = "form-register" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.Partial("_Alerts")
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="gi gi-envelope"></i></span>
+                        <input type="text" id="register-email" name="Email" class="form-control input-lg" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
+                        <input type="password" id="register-password" name="Password" class="form-control input-lg" placeholder="Mật khẩu">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
+                        <input type="password" id="register-password-verify" name="ConfirmPassword" class="form-control input-lg" placeholder="Xác nhận mật khẩu">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="gi gi-picture"></i></span>
+                        <input type="text" maxlength="8" name="Captcha" id="Captcha" class="form-control input-lg" placeholder="Mã xác nhận, hãy chú ý dấu cách">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12 text-center">
+                    <a href="javascript:loadCaptcha()"><img id="img-captcha" />   <i class="hi hi-refresh" style="margin-left:15px; font-size:25px"></i></a>
+                </div>
+            </div>
+            <div class="form-group form-actions">
+                <div class="col-xs-9">
+                    <a href="#modal-terms" data-toggle="modal" class="register-terms">Đồng ý với các điều khoản quản trị</a>
+                    <label class="switch switch-primary">
+                        <input type="checkbox" id="register-terms" name="RegisterTerms">
+                        <span></span>
+                    </label>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <button type="submit" class="btn btn-sm btn-success"><i class="fa fa-plus"></i>Đăng ký</button>
+                </div>
+            </div>
+        }
+        <!-- END Register Form -->
+    </div>
+    <!-- END Login Block -->
+</div>
+<!-- END Login Container -->
 
- <!-- Modal Terms -->
+<!-- Modal Terms -->
 <div id="modal-terms" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">管理组条款</h4>
+                <h4 class="modal-title">Điều khoản quản trị</h4>
             </div>
             <div class="modal-body">
-                <h4>禁止的行为</h4>
+                <h4>Hành vi bị cấm</h4>
                 <p>
                     <ol>
-                        <li>利用互联网上的互联网和信息服务的提供和使用,用于以下目的:</li>
-                        <li>揭示法律规定的国家机密，军事，安全，经济，对外关系等秘密.</li>
-                        <li>提供虚假信息，诽谤，侮辱组织的声誉，个人的荣誉和尊严.</li>
-                        <li>广告，宣传，买卖禁止的商品和服务; 禁止禁止新闻，文学，艺术，出版物.</li>
-                        <li>非法阻碍，破坏或破坏国家域名服务器，互联网设备和信息设备系统; 妨碍在组织和个人的互联网上获取信息和使用法律服务.</li>
-                        <li>未经授权使用密码，组织，个人，私人信息，个人信息和Internet资源的加密密钥.</li>
-                        <li>锻造组织和个人，在网上散布虚假信息，虚假信息，损害组织和个人的合法权益.</li>
-                        <li>为组织和个人的域名创建未经授权的链接。 创建，安装，分发恶意软件，计算机病毒; 未经授权的入侵，劫持信息系统，在互联网上创建病毒工具.</li>
-                        <li>严禁分发，传播或鼓励任何活动干扰，破坏或渗透所提供产品或服务器的数据.</li>
-                        <li>对于未经授权的登录或发现未经授权的登录或对服务器系统造成损害，不得有任何行为.</li>
-                        <li>在与其他玩家交流时，您不会对其他玩家提出异议，骚扰，骚扰或缺乏文化行为。.</li>
-                        <li>绝对禁止冒犯，以任何方式嘲笑他人（嘲笑，批评，性别，种族等）。.</li>
-                        <li>严禁以组织形式的投注，赌博或与金钱，现金和实物相关的协议.</li>
+                        <li>Sử dụng dịch vụ Internet và thông tin trên Internet để:</li>
+                        <li>Phanh bạch các bí mật nhà nước, quân sự, an ninh, kinh tế, ngoại giao và những bí mật khác theo quy định của pháp luật.</li>
+                        <li>Cung cấp thông tin giả mạo, phỉ báng, xúc phạm uy tín tổ chức, danh dự và nhân phẩm cá nhân.</li>
+                        <li>Quảng cáo, quảng bá, mua bán hàng hóa và dịch vụ bị cấm; phổ biến tin tức bị cấm, văn hóa, nghệ thuật, Số tiềnất bản phẩm bị cấm.</li>
+                        <li>Gây cản trở, phá huỷ hoặc xâm nhập hệ thống máy chủ tên miền quốc gia, thiết bị Internet và hệ thống thiết bị thông tin; cản trở việc truy cập thông tin và sử dụng dịch vụ hợp pháp trên Internet của tổ chức và cá nhân.</li>
+                        <li>Sử dụng mật khẩu, thông tin tổ chức, cá nhân, thông tin riêng tư, thông tin cá nhân và khóa mã hóa tài nguyên Internet mà không được ủy quyền.</li>
+                        <li>Sản Số tiềnất, phân phối thông tin giả mạo, thông tin sai lệch trên Internet, gây thiệt hại cho quyền lợi hợp pháp của tổ chức và cá nhân.</li>
+                        <li>Tạo liên kết không được ủy quyền cho tên miền của tổ chức và cá nhân. Tạo, cài đặt, phân phối phần mềm độc hại, virus máy tính; tạo công cụ virus trên Internet không được ủy quyền.</li>
+                        <li>Cấm phân phát, truyền bá hoặc khuyến khích bất kỳ hoạt động nào gây cản trở, phá hủy hoặc xâm nhập dữ liệu của các sản phẩm hoặc máy chủ được cung cấp.</li>
+                        <li>Không có bất kỳ hành vi nào liên quan đến đăng nhập trái phép hoặc khám phá sự không được ủy quyền đối với hệ thống máy chủ.</li>
+                        <li>Khi giao tiếp với người chơi khác, bạn sẽ không có ý kiến ​​khác, quấy rối, quấy rối hoặc thiếu văn hóa.</li>
+                        <li>Tuyệt đối không xúc phạm người khác bằng bất kỳ cách nào (chế nhạo, chỉ trích, về giới tính, chủng tộc, v.v.).</li>
+                        <li>Cấm cá cược, đánh cược hoặc thỏa thuận liên quan đến tiền, tiền mặt và vật chất.</li>
                     </ol>
                 </p>
                 <div class="form-actions">
                     <div class="text-right">
-                        <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">同意</button>
+                        <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">Đồng ý</button>
                     </div>
                 </div>
-            </div>            
-        </div>        
+            </div>
+        </div>
     </div>
 </div>
 <!-- END Modal Terms -->
@@ -128,7 +127,7 @@
         $(function () {
             /* Register form - Initialize Validation */
             $('#form-register').validate({
-                errorClass: 'help-block animation-slideDown', // You can change the animation class for a different entrance animation - check animations page
+                errorClass: 'help-block animation-slideDown', // Bạn có thể thay đổi lớp animation cho một hiệu ứng hiệu ứng khác - kiểm tra trang animations
                 errorElement: 'div',
                 errorPlacement: function (error, e) {
                     e.parents('.form-group > div').append(error);
@@ -152,41 +151,47 @@
                     },
                     'Password': {
                         required: true,
-                        minlength: 5
+                        minlength: 6
                     },
                     'ConfirmPassword': {
                         required: true,
+                        minlength: 6,
                         equalTo: '#register-password'
+                    },
+                    'Captcha': {
+                        required: true
                     },
                     'RegisterTerms': {
                         required: true
-                    },
-                    'Captcha': {
-                        required: true,
-                        remote: "@Url.Action("CaptchaValid", "Account")"
                     }
                 },
                 messages: {
-                    'Email': '电子邮件无效',
+                    'Email': {
+                        required: 'Vui lòng nhập địa chỉ email.',
+                        email: 'Vui lòng nhập đúng định dạng email.'
+                    },
                     'Password': {
-                        required: '密码是必填项,输入您的密码',
-                        minlength: '密码必须至少为5位数'
+                        required: 'Vui lòng nhập mật khẩu.',
+                        minlength: 'Mật khẩu phải chứa ít nhất 6 ký tự.'
                     },
                     'ConfirmPassword': {
-                        required: '确认密码是必填项,输入您的密码',
-                        minlength: '确认密码必须至少为5位数',
-                        equalTo: '密码与确认密码不匹配'
+                        required: 'Vui lòng nhập lại mật khẩu.',
+                        minlength: 'Mật khẩu phải chứa ít nhất 6 ký tự.',
+                        equalTo: 'Mật khẩu không khớp.'
+                    },
+                    'Captcha': {
+                        required: 'Vui lòng nhập mã xác nhận.'
                     },
                     'RegisterTerms': {
-                        required: '必须同意管理组条款'
-                    },
-                    'Captcha': "验证码错误,请注意空格!"
+                        required: 'Bạn phải đồng ý với các điều khoản quản trị.'
+                    }
                 }
             });
-            loadCaptcha();
+			loadCaptcha();
         });
+
         function loadCaptcha() {
-            $.ajax({
+             $.ajax({
                 type: 'GET', url: '@Url.Action("GenerateCaptcha", "Account")',
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -194,6 +199,5 @@
                 success: function (data) { $("#img-captcha").attr('src', data); }
             });
         }
-        
     </script>
 }

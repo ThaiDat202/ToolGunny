@@ -1,7 +1,7 @@
 ﻿@model List<string>
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "Kick hoặc Limitado tài khoản";
+    ViewBag.Title = "Kick hoặc Giới hạn tài khoản";
     List<string> nicks = new List<string>();
     string list = "";
     foreach (string nick in Model)
@@ -23,7 +23,7 @@
     @Html.AntiForgeryToken()
 
     <div class="form-group">
-        <label class="col-md-3 control-label">Lista Nick</label>
+        <label class="col-md-3 control-label">Danh sách Nickname</label>
         <div class="col-md-9">
                 <ul class="col-md-6 text-success">
                     @foreach (string nick in Model)
@@ -49,27 +49,27 @@
     <div class="form-group">       
         <label class="col-md-3 control-label" for="kick-select">Hình thức</label>
         <div class="col-md-9">
-            <select id="kick-select" name="type" class="form-control select-select2" style="width:100%" data-placeholder="Escolher hình thức..." size="1">
+            <select id="kick-select" name="type" class="form-control select-select2" style="width:100%" data-placeholder="Chọn hình thức..." size="1">
                 <option></option>
                 <option value="1">Kick khỏi game</option>
-                <option value="2">Limitado/Aberto tài khoản</option>
+                <option value="2">Giới hạn/Mở tài khoản</option>
             </select>
         </div>
     </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="day-text-input">Số dias Limitado</label>
+            <label class="col-md-3 control-label" for="day-text-input">Số ngày Giới hạn</label>
             <div class="col-md-9">
-                <input type="text" id="day-text-input" name="days" class="form-control" placeholder="Limitado tài khoản thì nhập...">
+                <input type="text" id="day-text-input" name="days" class="form-control" placeholder="Giới hạn tài khoản thì nhập...">
                 <span class="help-block"></span>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="blok-select">Limitado/Mỡ Limitado</label>
+            <label class="col-md-3 control-label" for="blok-select">Giới hạn/Mỡ Giới hạn</label>
             <div class="col-md-9">
-                <select id="blok-select" name="isExist" class="form-control select-select2" style="width:100%" data-placeholder="Limitado/Mỡ tài khoản thì Escolher..." size="1">
+                <select id="blok-select" name="isExist" class="form-control select-select2" style="width:100%" data-placeholder="Giới hạn/Mỡ tài khoản thì Chọn..." size="1">
                     <option></option>
-                    <option value="false">Limitado</option>
-                    <option value="true">Aberto Limitado</option>
+                    <option value="false">Giới hạn</option>
+                    <option value="true">Mở Giới hạn</option>
                 </select>
             </div>
         </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="form-group form-actions">
             <div class="text-right">
-                <input class="btn btn-sm btn-danger" type="submit" value="Apagar Item" />
+                <input class="btn btn-sm btn-danger" type="submit" value="Tắt Item" />
                 <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">Hũy</button>
             </div>
         </div>
@@ -126,7 +126,7 @@
                 }
             },
             messages: {
-                'type': 'Vui lòng Escolher hình thức!'
+                'type': 'Vui lòng chọn hình thức!'
             }
         });
     </script>

@@ -14,55 +14,55 @@
 <div class="modal-body">
     <form action="@Html.Raw(Url.Action("Create", "Service"))" method="post" class="form-horizontal form-bordered" id="frm-add-areaconfig">
         <div class="form-group">
-            <label class="col-md-3 control-label" for="AreaID">大区ID</label>
+            <label class="col-md-3 control-label" for="AreaID">AreaID</label>
             <div class="col-md-9">
                 <input type="text" id="AreaID" name="AreaID" class="form-control input-sm must-digits" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="1001">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="AreaServer">大区系统</label>
+            <label class="col-md-3 control-label" for="AreaServer">AreaServer</label>
             <div class="col-md-9">               
-                    <input type="text" id="AreaServer" name="AreaServer" class="form-control input-sm" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="暖冬">
+                    <input type="text" id="AreaServer" name="AreaServer" class="form-control input-sm" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="Gà chinh phục">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="AreaName">大区名称</label>
+            <label class="col-md-3 control-label" for="AreaName">AreaName</label>
             <div class="col-md-9">               
-                    <input type="text" id="AreaName" name="AreaName" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="二区">
+                    <input type="text" id="AreaName" name="AreaName" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="1">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="DataSource">数据库名</label>
+            <label class="col-md-3 control-label" for="DataSource">DataSource</label>
             <div class="col-md-9">               
-                    <input type="text" id="DataSource" name="DataSource" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="LIAYUAN">
+                    <input type="text" id="DataSource" name="DataSource" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="DESKTOP-SKTCRVL">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Catalog">表名</label>
+            <label class="col-md-3 control-label" for="Catalog">Catalog</label>
             <div class="col-md-9">              
-                    <input type="text" id="Catalog" name="Catalog" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="Tank_1">
+                    <input type="text" id="Catalog" name="Catalog" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="Db_Tank">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="UserID">数据库用户名</label>
+            <label class="col-md-3 control-label" for="UserID">UserID</label>
             <div class="col-md-9">              
                     <input type="text" id="UserID" name="UserID" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="sa">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Password">数据库密码</label>
+            <label class="col-md-3 control-label" for="Password">Password</label>
             <div class="col-md-9">               
                     <input type="text" id="Password" name="Password" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="123456">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Password">Request链接</label>
+            <label class="col-md-3 control-label" for="Password">RequestUrl</label>
             <div class="col-md-9">
-                <input type="text" id="RequestUrl" name="RequestUrl" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="http://ddt.ndddt.com/">
+                <input type="text" id="RequestUrl" name="RequestUrl" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="http://127.0.0.1:88/">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="CrossChatAllow">跨区聊天允许</label>
+            <label class="col-md-3 control-label" for="CrossChatAllow">CrossChatAllow</label>
             <div class="col-md-9">
                 <label class="switch switch-primary">
                     <input type="checkbox" id="CrossChatAllow" name="CrossChatAllow" value="true" checked>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="CrossPrivateChat">跨区私聊允许</label>
+            <label class="col-md-3 control-label" for="CrossPrivateChat">CrossPrivateChat</label>
             <div class="col-md-9">
                 <label class="switch switch-primary">
                     <input type="checkbox" id="CrossPrivateChat" name="CrossPrivateChat" value="true" checked>
@@ -82,9 +82,9 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-md-3 control-label" for="Version">版本</label>
+            <label class="col-md-3 control-label" for="Version">Version</label>
             <div class="col-md-9">
-                <input type="text" id="Version" name="Version" class="form-control input-sm must-required" value="9.9">
+                <input type="text" id="Version" name="Version" class="form-control input-sm must-required" value="11.2">
             </div>
         </div>
         <div class="form-group form-actions">

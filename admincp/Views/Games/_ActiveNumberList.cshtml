@@ -13,18 +13,18 @@
             <thead>
                 <tr>
                     <th style="width: 80px;" class="text-center">
-                        <label class="switch switch-primary" data-toggle="tooltip" title="Escolher Todos">
+                        <label class="switch switch-primary" data-toggle="tooltip" title="Chọn  tất cả">
                             <input type="checkbox">
                             <span></span>
                         </label>
                     </th>
-                    <th>激活码</th>
-                    <th>对应活动ID</th>
-                    <th>是否激活</th>
-                    <th>激活日期</th>
-                    <th>激活用户ID</th>
+                    <th>Code kích hoạt</th>
+                    <th>ID hoạt động trao đổi</th>
+                    <th>Kích hoạt ngay</th>
+                    <th>Ngày kích hoạt</th>
+                    <th>Kích hoạt ID người dùng</th>
                     <th>无用</th>
-                    <th style="width: 80px;" class="text-center">操作</th>
+                    <th style="width: 80px;" class="text-center">vận hành</th>
                 </tr>
             </thead>
             <tbody>
@@ -68,7 +68,7 @@
     <div class="row">
         <div class="col-md-3">
             <div class="btn-group btn-group-sm">
-                <a href="javascript:void(0)" class="btn btn-warning" id="delete-select-items" style="margin-left:15px">删除选中的激活码</a>
+                <a href="javascript:void(0)" class="btn btn-warning" id="delete-select-items" style="margin-left:15px">Xóa选中的Code kích hoạt</a>
             </div>
         </div>
         <div class="col-md-7">
@@ -82,7 +82,7 @@
             </div>
         </div>
         <div class="col-md-2">
-            <p class="text-info">共加载: <span class="text-success">@Model.TotalItemCount 个激活码</span> </p>
+            <p class="text-info">Tổng cộng: <span class="text-success">@Model.TotalItemCount TrangCode kích hoạt</span> </p>
         </div>
     </div>
 }
@@ -118,7 +118,7 @@ else
                 }).toArray();
 
                 if (_checked.length == 0) {
-                    showGrowl('Bạn Não selecionado code. Vui lòng Escolher và thử lại', 'danger');
+                    showGrowl('Bạn Não selecionado code. Vui lòng Chọn  và thử lại', 'danger');
                     return false;
                 }
                 url += '&ids=' + _checked;

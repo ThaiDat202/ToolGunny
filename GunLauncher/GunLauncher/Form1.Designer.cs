@@ -42,13 +42,14 @@ namespace GunLauncher
             // 
             this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton_Refesh,
             this.toolStripButton_ClearCahce,
             this.toolStripButton_DevTool});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1061, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1415, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -58,7 +59,7 @@ namespace GunLauncher
             this.toolStripButton_Refesh.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_Refesh.Image")));
             this.toolStripButton_Refesh.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_Refesh.Name = "toolStripButton_Refesh";
-            this.toolStripButton_Refesh.Size = new System.Drawing.Size(41, 22);
+            this.toolStripButton_Refesh.Size = new System.Drawing.Size(53, 24);
             this.toolStripButton_Refesh.Text = "Tải lại";
             this.toolStripButton_Refesh.Click += new System.EventHandler(this.toolStripButton_Refesh_Click);
             // 
@@ -68,7 +69,7 @@ namespace GunLauncher
             this.toolStripButton_ClearCahce.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_ClearCahce.Image")));
             this.toolStripButton_ClearCahce.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_ClearCahce.Name = "toolStripButton_ClearCahce";
-            this.toolStripButton_ClearCahce.Size = new System.Drawing.Size(67, 22);
+            this.toolStripButton_ClearCahce.Size = new System.Drawing.Size(83, 24);
             this.toolStripButton_ClearCahce.Text = "Xóa Cache";
             this.toolStripButton_ClearCahce.Click += new System.EventHandler(this.toolStripButton_ClearCahce_Click);
             // 
@@ -79,31 +80,34 @@ namespace GunLauncher
             this.toolStripButton_DevTool.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton_DevTool.Image")));
             this.toolStripButton_DevTool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton_DevTool.Name = "toolStripButton_DevTool";
-            this.toolStripButton_DevTool.Size = new System.Drawing.Size(79, 22);
+            this.toolStripButton_DevTool.Size = new System.Drawing.Size(100, 24);
             this.toolStripButton_DevTool.Text = "Mở DevTools";
             this.toolStripButton_DevTool.Click += new System.EventHandler(this.toolStripButton_DevTool_Click);
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 25);
+            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1061, 681);
+            this.panel1.Size = new System.Drawing.Size(1415, 842);
             this.panel1.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(66)))));
-            this.ClientSize = new System.Drawing.Size(1061, 706);
+            this.ClientSize = new System.Drawing.Size(1415, 869);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
             this.ForeColor = System.Drawing.Color.White;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GunLauncher";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

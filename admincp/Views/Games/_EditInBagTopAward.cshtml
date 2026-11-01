@@ -1,7 +1,7 @@
 ﻿@model SqlDataProvider.Data.TopAwardInfo
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "更新参数";
+    ViewBag.Title = "Refresh参数";
     var item = Model;
     string chek = string.Empty;
 
@@ -28,39 +28,39 @@
             <div class="row">
                 <div class="@cssRowA">
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="TopID">编号</label>
+                        <label class="col-md-4 control-label" for="TopID">TopID</label>
                         <div class="col-md-8">
                             <input type="text" id="TopID" name="TopID" class="form-control input-sm" value="@item.TopID" disabled>
                         </div>
                         <input type="hidden" id="TopID" name="TopID" value="@item.TopID">
                     </div>
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="Rank">排名</label>
+                        <label class="col-md-4 control-label" for="Rank">Rank</label>
                         <div class="col-md-8">
                             <input type="text" id="Rank" name="Rank" class="form-control input-sm must-digits" value="@item.Rank">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="TemplateID">物品ID</label>
+                        <label class="col-md-4 control-label" for="TemplateID">TemplateID</label>
                         <div class="col-md-8">
                             <input type="text" id="TemplateID" name="TemplateID" class="form-control input-sm" value="@item.TemplateID" disabled>
                         </div>
                         <input type="hidden" id="TemplateID" name="TemplateID" value="@item.TemplateID">
                     </div>
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="Count">数量</label>
+                        <label class="col-md-4 control-label" for="Count">Count</label>
                         <div class="col-md-8">
                             <input type="text" id="Count" name="Count" class="form-control input-sm must-digits" value="@item.Count">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="ValidDate">有效期</label>
+                        <label class="col-md-4 control-label" for="ValidDate">Hiệu lực</label>
                         <div class="col-md-8">
                             <input type="text" id="ValidDate" name="ValidDate" class="form-control input-sm must-digits" value="@item.ValidDate">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-4 control-label" for="IsBinds">是否绑定</label>
+                        <label class="col-md-4 control-label" for="IsBinds">IsBinds</label>
                         <div class="col-md-8 text-left">
                             <label class="switch switch-primary">
                                 @{
@@ -75,7 +75,7 @@
                     @if (item.Type == 2)
                     {
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="IsGold">是否铸金</label>
+                            <label class="col-md-4 control-label" for="IsGold">IsGold</label>
                             <div class="col-md-8 text-left">
                                 <label class="switch switch-primary">
                                     @{
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="GoldValidate">铸金有效期</label>
+                                                <label class="col-md-4 control-label" for="GoldValidate">Đúc vàngHiệu lực</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="GoldValidate" name="GoldValidate" class="form-control input-sm must-digits" value="@item.GoldValidate">
                                                 </div>
@@ -102,44 +102,44 @@
                         if (item.Type == 2)
                         {
                             <div class="form-group">
-                                <label class="col-md-4 control-label" for="StrengthenLevel">强化等级</label>
+                                <label class="col-md-4 control-label" for="StrengthenLevel">StrengthenLevel</label>
                                 <div class="col-md-8">
                                     <input type="text" id="StrengthenLevel" name="StrengthenLevel" class="form-control input-sm must-digits" value="@item.StrengthenLevel">
                                 </div>
                             </div>
                         }
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="AttackCompose">攻击合成</label>
+                            <label class="col-md-4 control-label" for="AttackCompose">Tấn công</label>
                             <div class="col-md-8">
                                 <input type="text" id="AttackCompose" name="AttackCompose" class="form-control input-sm must-digits" value="@item.AttackCompose">
                             </div>
                         </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="DefendCompose">防御合成</label>
+                                                    <label class="col-md-4 control-label" for="DefendCompose">Phòng thủ</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="DefendCompose" name="DefendCompose" class="form-control input-sm must-digits" value="@item.DefendCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="AgilityCompose">敏捷合成</label>
+                                                    <label class="col-md-4 control-label" for="AgilityCompose">Nhanh nhẹn</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="AgilityCompose" name="AgilityCompose" class="form-control input-sm must-digits" value="@item.AgilityCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="LuckCompose">幸运合成</label>
+                                                    <label class="col-md-4 control-label" for="LuckCompose">May mắn</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="LuckCompose" name="LuckCompose" class="form-control input-sm must-digits" value="@item.LuckCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="MagicAttack">魔法攻击</label>
+                                                    <label class="col-md-4 control-label" for="MagicAttack">Ma công</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="MagicAttack" name="MagicAttack" class="form-control input-sm must-digits" value="@item.MagicAttack">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="MagicDefend">魔法防御</label>
+                                                    <label class="col-md-4 control-label" for="MagicDefend">Ma kháng</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="MagicDefend" name="MagicDefend" class="form-control input-sm must-digits" value="@item.MagicDefend">
                                                     </div>
@@ -151,8 +151,8 @@
 
             <div class="form-group form-actions">
                 <div class="col-md-12 text-right">
-                    <button type="submit" class="btn btn-sm btn-warning btn-submit2">更新</button>
-                    <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">关闭</button>
+                    <button type="submit" class="btn btn-sm btn-warning btn-submit2">Refresh</button>
+                    <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Đóng</button>
                 </div>
             </div>
         </form>

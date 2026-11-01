@@ -6,10 +6,10 @@
 <div class="row">
     <div class="col-md-4" style="border-right:1px dotted gray">
         <p class="text-warning" style="font-size:18px;">
-            <i class="gi gi-log_in"></i><small> 服务器列表</small>
+            <i class="gi gi-log_in"></i><small> Danh sách máy chủ</small>
             <a href="@Html.Raw(Url.Action("Create","Service"))" class="btn btn-alt btn-sm btn-default pull-right" data-dialog="-1"
                id="btn-add-server">
-                <i class="gi gi-circle_plus text-primary"></i> 添加更多服务器
+                <i class="gi gi-circle_plus text-primary"></i>Thêm nhiều máy chủ
             </a>
         </p>
         <div id="area-list">           
@@ -32,12 +32,12 @@
                                         <span class="pull-right text-warning" style="font-size:11px"><em></em> @item.AreaID</span>
                                     </div>
                                     <div>
-                                        <span class="text-info" style="font-size:11px">数据库: <em>@item.Catalog</em></span>
+                                        <span class="text-info" style="font-size:11px">Cơ sở dữ liệu: <em>@item.Catalog</em></span>
                                         <div class="btn-group btn-group-xs pull-right">
                                             <a href="@Html.Raw(Url.Action("Edit","Service", new { id = item.AreaID}))" class="btn btn-xs btn-warning"
-                                               data-toggle="tooltip" title="编辑" data-modal="edit"><i class="gi gi-edit"></i></a>
+                                               data-toggle="tooltip" title="Chỉnh sửa" data-modal="edit"><i class="gi gi-edit"></i></a>
                                             <a href="@Url.Action("Delete", "Service", routeValues: new { id = item.AreaID })" data-modal="delete"
-                                               data-toggle="tooltip" title="删除" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                               data-toggle="tooltip" title="Xóa" class="btn btn-danger"><i class="fa fa-times"></i></a>
                                         </div>
                                     </div>
                                 </td>
@@ -59,15 +59,15 @@
 
         </div><br />
         <div class="btn-group btn-group-sm">
-            <a href="@Html.Raw(Url.Action("SendShutdown","Service"))" class="btn btn-warning" id="maintenance-selected">Bảo trì Server obter Escolher</a>
+            <a href="@Html.Raw(Url.Action("SendShutdown","Service"))" class="btn btn-warning" id="maintenance-selected">Chọn Server bảo trì</a>
         </div>
     </div>
     <div class="col-md-8">
         <p class="text-warning" style="font-size:18px">
-            <i class="gi gi-log_out"></i><small>频道列表</small> <strong><span id="channel-header" class="text-danger">..</span></strong>
+            <i class="gi gi-log_out"></i><small>Danh sách kênh</small> <strong><span id="channel-header" class="text-danger">..</span></strong>
             <a href="@Html.Raw(Url.Action("CreateChannel","Service"))" class="btn btn-alt btn-sm btn-default pull-right" data-dialog="-1"
                id="btn-add-channel">
-                <i class="gi gi-circle_plus text-primary"></i> 添加更多频道
+                <i class="gi gi-circle_plus text-primary"></i> Thêm kênh
             </a>
         </p>
         <div id="channel-list">
@@ -94,7 +94,7 @@
                 }).toArray();
 
                 if (_checked.length == 0) {
-                    showGrowl('未知错误，请重试', 'danger');
+                    showGrowl('Lỗi không xác định, vui lòng thử lại', 'danger');
                     return false;
                 }
                 var params = 'ids=' + _checked;

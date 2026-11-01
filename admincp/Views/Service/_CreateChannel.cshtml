@@ -16,20 +16,20 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="ZoneId">频道ID</label>
+                    <label class="col-md-3 control-label" for="ZoneId">ZoneId</label>
                     <div class="col-md-9">
                         <input type="text"  class="form-control input-sm must-number" value="@Request.QueryString["id"]" disabled>
                     </div>
                     <input type="hidden" id="ZoneId" name="ZoneId" value="@Request.QueryString["id"]" />
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="ID">编号</label>
+                    <label class="col-md-3 control-label" for="ID">TopID</label>
                     <div class="col-md-9">
                         <input type="text" id="ID" name="ID" class="form-control input-sm must-digits" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")">
                     </div>
                 </div>                
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="Name">名称</label>
+                    <label class="col-md-3 control-label" for="Name">Tên</label>
                     <div class="col-md-9">
                         <input type="text" id="Name" name="Name" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")">
                     </div>
@@ -41,19 +41,19 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="Port">端口</label>
+                    <label class="col-md-3 control-label" for="Port">Port</label>
                     <div class="col-md-9">
-                        <input type="text" id="Port" name="Port" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="9200">
+                        <input type="text" id="Port" name="Port" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="8527">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="State">频道</label>
+                    <label class="col-md-3 control-label" for="State">State</label>
                     <div class="col-md-9">
                         <input type="text" id="State" name="State" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="1">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="Online">在线</label>
+                    <label class="col-md-3 control-label" for="Online">Online</label>
                     <div class="col-md-9">
                         <input type="text" id="Online" name="Online" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="0">
                     </div>
@@ -61,19 +61,19 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="Total">总人数</label>
+                    <label class="col-md-3 control-label" for="Total">Total</label>
                     <div class="col-md-9">
                         <input type="text" id="Total" name="Total" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="1200">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="Room">房间</label>
+                    <label class="col-md-3 control-label" for="Room">Room</label>
                     <div class="col-md-9">
                         <input type="text" id="Room" name="Room" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="1000">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="Remark">备注</label>
+                    <label class="col-md-3 control-label" for="Remark">Remark</label>
                     <div class="col-md-9">
                         <input type="text" id="Remark" name="Remark" class="form-control input-sm must-required" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Text")" value="11">
                     </div>
@@ -85,19 +85,19 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="MustLevel">最高等级</label>
+                    <label class="col-md-3 control-label" for="MustLevel">MustLevel</label>
                     <div class="col-md-9">
                         <input type="text" id="MustLevel" name="MustLevel" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="100">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="LowestLevel">最低等级</label>
+                    <label class="col-md-3 control-label" for="LowestLevel">LowestLevel</label>
                     <div class="col-md-9">
                         <input type="text" id="LowestLevel" name="LowestLevel" class="form-control input-sm must-number" placeholder="@StaticFunction.GetTranslation("Model.PlaceHolder.Int")" value="0">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="NewerServer">较新的频道</label>
+                    <label class="col-md-3 control-label" for="NewerServer">NewerServer</label>
                     <div class="col-md-9">
                         <label class="switch switch-primary">
                             <input type="checkbox" id="NewerServer" name="NewerServer" value="true" checked>

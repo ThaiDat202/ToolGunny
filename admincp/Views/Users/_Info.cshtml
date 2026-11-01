@@ -2,7 +2,7 @@
 @model SqlDataProvider.Data.PlayerInfo
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "用户数据";
+    ViewBag.Title = "Dữ liệu người dùng";
     var item = Model;
     AvatarViewModel settingAvatar = new AvatarViewModel
     {
@@ -18,7 +18,7 @@
         <div class="block">
             <!-- Customer Info Title -->
             <div class="block-title">
-                <h2><i class="fa fa-file-o"></i> <strong>玩家重要信息</strong></h2>
+                <h2><i class="fa fa-file-o"></i> <strong>Thông tin người chơi</strong></h2>
             </div>
             <!-- END Customer Info Title -->
             <div class="block-section text-center">
@@ -37,77 +37,77 @@
             <table class="table table-borderless table-striped table-vcenter">
                 <tbody>
                     <tr>
-                        <td class="text-right"><strong>用户名</strong></td>
+                        <td class="text-right"><strong>Tên tài khoản</strong></td>
                         <td>
                             <span data-type="text" data-pk="@item.ID" id="UserName" class="text-success">@item.UserName</span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>二级密码</strong></td>
+                        <td class="text-right"><strong>Mật khẩu cấp hai</strong></td>
                         <td>
                             <span data-type="text" data-pk="@item.ID" id="PasswordTwo" data-url="@Html.Raw(Url.Action("UpdateEditable", "Users", new { @id = item.ID, zId=item.ZoneID }))" class="text-success">@item.PasswordTwo</span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="text-right" style="width: 50%;"><strong>等级</strong></td>
+                        <td class="text-right" style="width: 50%;"><strong>Level</strong></td>
                         <td>@item.Grade</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>战斗力</strong></td>
+                        <td class="text-right"><strong>Lực chiến</strong></td>
                         <td>@item.FightPower</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>点券</strong></td>
+                        <td class="text-right"><strong>Xu</strong></td>
                         <td>
                             <span data-type="text" data-pk="@item.ID" id="Money" data-url="@Html.Raw(Url.Action("UpdateEditable", "Users", new { @id = item.ID, zId=item.ZoneID }))" class="text-success">@item.Money</span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>金币</strong></td>
+                        <td class="text-right"><strong>Vàng</strong></td>
                         <td><span data-type="text" data-pk="@item.ID" id="Gold" data-url="@Html.Raw(Url.Action("UpdateEditable", "Users", new { @id = item.ID, zId=item.ZoneID }))" class="text-success">@item.Gold</span></td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>绑点</strong></td>
+                        <td class="text-right"><strong>Xu khóa</strong></td>
                         <td><span data-type="text" data-pk="@item.ID" id="DDTMoney" data-url="@Html.Raw(Url.Action("UpdateEditable", "Users", new { @id = item.ID, zId=item.ZoneID }))" class="text-success">@item.DDTMoney</span></td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>攻击</strong></td>
+                        <td class="text-right"><strong>Tấn công</strong></td>
                         <td>@item.Attack</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>防御</strong></td>
+                        <td class="text-right"><strong>Phòng thủ</strong></td>
                         <td>@item.Defence</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>敏捷</strong></td>
+                        <td class="text-right"><strong>Nhanh nhẹn</strong></td>
                         <td>@item.Agility</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>幸运</strong></td>
+                        <td class="text-right"><strong>May mắn</strong></td>
                         <td>@item.Luck</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>魔攻</strong></td>
+                        <td class="text-right"><strong>Ma công</strong></td>
                         <td>@item.MagicAttack</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>魔防</strong></td>
+                        <td class="text-right"><strong>Ma kháng</strong></td>
                         <td>@item.MagicDefence</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>坐骑等级</strong></td>
+                        <td class="text-right"><strong>Level gắn kết</strong></td>
                         <td>@Html.TUnEquip(item.MountLv)</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>宠物ID</strong></td>
+                        <td class="text-right"><strong>ID thú cưng</strong></td>
                         <td>@Html.TUnEquip(item.PetsID)</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>称号ID</strong></td>
+                        <td class="text-right"><strong>ID tiêu đề</strong></td>
                         <td>@Html.TUnEquip(item.honorId)</td>
                     </tr>
                     <tr>
-                        <td class="text-right"><strong>卡魂</strong></td>
+                        <td class="text-right"><strong>Thần hộ mệnh</strong></td>
                         <td><span data-type="text" data-pk="@item.ID" id="CardSoul" data-url="@Html.Raw(Url.Action("UpdateEditable", "Users", new { @id = item.ID, zId=item.ZoneID }))" class="text-success">@item.CardSoul</span></td>
                     </tr>
                     <tr>
@@ -123,7 +123,7 @@
         <div class="block">
             <!-- Texp Title -->
             <div class="block-title">
-                <h2><i class="fa fa-line-chart"></i> <strong>玩家修炼信息</strong></h2>
+                <h2><i class="fa fa-line-chart"></i> <strong>Thông tin người chơi</strong></h2>
             </div>
             <!-- END Texp Title -->
             <!-- Texp Content -->
@@ -161,7 +161,7 @@
                 <div class="block">
                     <!-- Active System Data Title -->
                     <div class="block-title">
-                        <h2>用户活动数据</h2>
+                        <h2>Dữ liệu hoạt động của người dùng</h2>
                     </div>
                     <!-- END Active System Data Title -->
                     <!-- Active System Data Content -->
@@ -179,7 +179,7 @@
                 <div class="block">
                     <!-- User Extra Title -->
                     <div class="block-title">
-                        <h2>用户额外信息</h2>
+                        <h2>Tiện ích bổ sung</h2>
                     </div>
                     <!-- END User Extra Title -->
                     <!-- User Extra Content -->

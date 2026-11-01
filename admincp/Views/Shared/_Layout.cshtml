@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - 管理面板</title>
-    <meta name="description" content="弹弹堂史上最屌管理面板">
-    <meta name="author" content="LIayuan">
+    <title>@ViewBag.Title - Admin</title>
+    <meta name="description" content="Admin">
+    <meta name="author" content="Manager">
     <meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
     <link rel="shortcut icon" href="@StaticFunction.Host("Backend/img/icon1.png")">
@@ -61,9 +61,9 @@
         <!-- Preloader -->
         <!-- Preloader functionality (initialized in js/app.js) - pageLoading() -->
         <div class="preloader themed-background">
-            <h1 class="push-top-bottom text-light text-center">LIayuan <strong>管理面板</strong></h1>
+            <h1 class="push-top-bottom text-light text-center">Manager <strong>Admin</strong></h1>
             <div class="inner">
-                <h3 class="text-light visible-lt-ie9 visible-lt-ie10"><strong>请耐心等待...</strong></h3>
+                <h3 class="text-light visible-lt-ie9 visible-lt-ie10"><strong>Vui lòng chờ...</strong></h3>
                 <div class="preloader-spinner hidden-lt-ie9 hidden-lt-ie10"></div>
             </div>
         </div>
@@ -108,7 +108,7 @@
                     <div class="sidebar-content">
                         <!-- Brand -->
                         <a href="@Url.Action("Index","Home")" class="sidebar-brand">
-                            <i class="gi gi-shield"></i><span class="sidebar-nav-mini-hide">LIayuan <strong>管理面板</strong></span>
+                            <i class="gi gi-shield"></i><span class="sidebar-nav-mini-hide">Manager <strong>Admin</strong></span>
                         </a>
                         <!-- END Brand -->
                         @Html.Partial("_LoginPartial")       
@@ -121,20 +121,20 @@
 							 fim da desativaçao-->     
                         
                             <li>
-                                <a href="@Url.Action("Index","Games")" class="@Url.TActive("Games")"><i class="gi gi-database_minus sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">数据库</span></a>
+                                <a href="@Url.Action("Index","Games")" class="@Url.TActive("Games")"><i class="gi gi-database_minus sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Cơ sở dữ liệu</span></a>
                             </li>
                             <li>
-                                <a href="@Url.Action("Index","Users")" class="@Url.TActive("Users")"><i class="hi hi-user sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">用户数据</span></a>
+                                <a href="@Url.Action("Index","Users")" class="@Url.TActive("Users")"><i class="hi hi-user sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Dữ liệu người dùng</span></a>
                             </li>                
                             <li>
-                                <a href="@Url.Action("Notification","Home")" class="@Url.TSubActive("Notification")"><i class="gi gi-envelope sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">全局实时通知</span></a>
+                                <a href="@Url.Action("Notification","Home")" class="@Url.TSubActive("Notification")"><i class="gi gi-envelope sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Thông báo toàn server</span></a>
                             </li>							
                             <li class="sidebar-header">
                                 <span class="sidebar-header-options clearfix">
                                   <!--  <a href="javascript:void(0)" data-toggle="tooltip" title="Quick Settings"><i class="gi gi-settings"></i></a>
                                     <a href="javascript:void(0)" data-toggle="tooltip" title="Create the most amazing pages with the widget kit!"><i class="gi gi-lightbulb"></i></a>-->
                                 </span>
-                                <span class="sidebar-header-title">功能</span>
+                                <span class="sidebar-header-title">Chức năng</span>
                             </li>
 							<!-- fim da desativaça     
                             <li>
@@ -143,25 +143,25 @@
 							
 							 fim da desativaçao-->     
                             <li>
-                                <a href="@Url.Action("Events","Games")" class="@Url.TSubActive("Events")"><i class="gi gi-gift sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">活动</span></a>
+                                <a href="@Url.Action("Events","Games")" class="@Url.TSubActive("Events")"><i class="gi gi-gift sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Hoạt động</span></a>
                             </li> 
                             <li>
-                                <a href="@Url.Action("ShopSale","Games")" class="@Url.TSubActive("ShopSale")"><i class="gi gi-cart_in sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">促销商城</span></a>
+                                <a href="@Url.Action("ShopSale","Games")" class="@Url.TSubActive("ShopSale")"><i class="gi gi-cart_in sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Khuyến mãi</span></a>
                             </li>                 
                             <li>
-                                <a href="@Url.Action("ShopGame","Games")" class="@Url.TSubActive("ShopGame")"><i class="gi gi-shopping_bag sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">游戏商城</span></a>
+                                <a href="@Url.Action("ShopGame","Games")" class="@Url.TSubActive("ShopGame")"><i class="gi gi-shopping_bag sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Trung tâm</span></a>
                             </li>
                             <li>
-                                <a href="@Url.Action("DropItems","Games")" class="@Url.TSubActive("DropItems")"><i class="gi gi-cloud-download sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">副本道具掉落</span></a>
+                                <a href="@Url.Action("DropItems","Games")" class="@Url.TSubActive("DropItems")"><i class="gi gi-cloud-download sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Sao chép đạo cụ thả</span></a>
                             </li>  
 							<li>
-                                <a href="@Url.Action("Index","Service")" class="@Url.TActive("Service")"><i class="gi gi-server sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">游戏配置</span></a>
+                                <a href="@Url.Action("Index","Service")" class="@Url.TActive("Service")"><i class="gi gi-server sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Cấu hình</span></a>
                             </li>
 							<li>
-                                <a href="@Url.Action("Index","Award")" class="@Url.TActive("Award")"><i class="gi gi-film sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">排名奖励</span></a>
+                                <a href="@Url.Action("Index","Award")" class="@Url.TActive("Award")"><i class="gi gi-film sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Phần thưởng Rank</span></a>
                             </li>
 							<li>
-                                <a href="@Url.Action("SendAward","Award")" class="@Url.TSubActive("SendAward")"><i class="gi gi-share_alt sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">发放排名奖励</span></a>
+                                <a href="@Url.Action("SendAward","Award")" class="@Url.TSubActive("SendAward")"><i class="gi gi-share_alt sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Phát phần thưởng Rank</span></a>
                             </li>
 							
 							<!-- fim da desativaçao     
@@ -169,7 +169,7 @@
                                 <a href="http://103.216.155.126:83//Award/OnlineAward"><i class="gi gi-table sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Recompensas Online</span></a>
                             </li>  
                             <li>
-                                <a href="http://103.216.155.126:83//Award/SendOnlineAward"><i class="gi gi-envelope sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Envio de Prêmios</span></a>
+                                <a href="http://103.216.155.126:83//Award/SendOnlineAward"><i class="gi gi-envelope sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Envio de Giải thưởng</span></a>
                             </li>                
                             <li>
                                 <a href="http://103.216.155.126:83//Award"><i class="gi gi-film sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Recompensas</span></a>
@@ -180,10 +180,10 @@
 							<!-- fim da desativaçao-->   
 							
                              <li class="sidebar-header">
-                                <span class="sidebar-header-title">游戏内容添加</span>
+                                <span class="sidebar-header-title">XML</span>
                             </li> 
                             <li>
-                                <a href="@Url.Action("Index","XML")" class="@Url.TActive("XML")"><i class="fi fi-xml sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">史上最屌炸天的Xml工具</span></a>
+                                <a href="@Url.Action("Index","XML")" class="@Url.TActive("XML")"><i class="fi fi-xml sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Tool XML</span></a>
                             </li>
 							
 							<!-- fim da desativaçao     
@@ -263,18 +263,18 @@
                                 <i class="gi gi-settings"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-custom dropdown-options">
-                                <li class="dropdown-header text-center">导航栏风格</li>
+                                <li class="dropdown-header text-center">Thanh điều hướng</li>
                                 <li>
                                     <div class="btn-group btn-group-justified btn-group-sm">
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-header-default">白色</a>
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-header-inverse">黑色</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-header-default">Trắng</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-header-inverse">Đen</a>
                                     </div>
                                 </li>
-                                <li class="dropdown-header text-center">页面风格</li>
+                                <li class="dropdown-header text-center">Kiểu trang</li>
                                 <li>
                                     <div class="btn-group btn-group-justified btn-group-sm">
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style">灰色</a>
-                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style-alt">白色</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style">Xám</a>
+                                        <a href="javascript:void(0)" class="btn btn-primary" id="options-main-style-alt">Trắng</a>
                                     </div>
                                 </li>
                             </ul>
@@ -295,30 +295,30 @@
                                 <i class="fa fa-cog fa-fw"></i> <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                <li class="dropdown-header text-center">更新数据</li>
+                                <li class="dropdown-header text-center">Cập nhật dữ liệu</li>
                                 <li>                                   
                                     <a href="@Url.Action("ReloadData", "Home", routeValues: new { @type = "GameData" })" data-modal = "reload">
                                         <i class="fa fa-cog fa-fw pull-right"></i>
-                                        游戏数据
+                                        Dữ liệu trò chơi
                                     </a>
                                     <a href="@Url.Action("ReloadData", "Home", routeValues: new { @type = "WebData" })" data-modal = "reload">
                                         <i class="fa fa-cog fa-fw pull-right"></i>
-                                        网页数据
+                                        Dữ liệu web
                                     </a>                                    
                                 </li>
                                 <li class="divider"></li>
                                 <li>
                                     <a href="@Url.Action("ReloadData", "Home", routeValues: new { @type = "AreaCongfig" })" data-modal = "reload">
                                         <i class="fa fa-cog fa-fw pull-right"></i>
-                                        地区
+                                        Khu vực
                                     </a>
                                     <a href="@Url.Action("ReloadData", "Home", routeValues: new { @type = "Languages" })" data-modal = "reload">
                                         <i class="fa fa-cog fa-fw pull-right"></i>
-                                        语言
+                                        Ngôn ngữ
                                     </a>
                                     <a href="@Url.Action("ReloadData", "Home", routeValues: new { @type = "TableData" })" data-modal = "reload">
                                         <i class="fa fa-cog fa-fw pull-right"></i>
-                                        表
+                                        Danh sách
                                     </a>
                                 </li>                                
                             </ul>
@@ -336,10 +336,10 @@
                 <!-- Footer -->
                  <footer class="clearfix">
                     <div class="pull-right">
-                        弹弹堂管理面板By: <a href="#" target="_blank">LIayuan</a>
+                        Bảng quản lý DDT Bởi: <a href="#" target="_blank">Admin</a>
                     </div>
                     <div class="pull-left">
-                        2020 &copy; <a href="javascript:void(0)" target="_blank">弹弹堂管理面板 v3.5</a>
+                        2020 &copy; <a href="javascript:void(0)" target="_blank">version v3.5</a>
                     </div>
                 </footer>
                 <!-- END Footer -->
@@ -358,7 +358,7 @@
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header text-center">
-                    <h2 class="modal-title"><i class="fa fa-pencil"></i>配置</h2>
+                    <h2 class="modal-title"><i class="fa fa-pencil"></i>Cấu hình</h2>
                 </div>
                 <!-- END Modal Header -->
                 <!-- Modal Body -->

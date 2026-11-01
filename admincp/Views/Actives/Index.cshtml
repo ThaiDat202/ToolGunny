@@ -1,23 +1,23 @@
 ﻿@{
-    ViewBag.Title = "Actives";
+    ViewBag.Title = "Hoạt động";
 }
 
-<!-- Blank Alternative Header -->
+<!-- Tiêu đề thay thế trống -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-gift"></i>@ViewBag.Title<br><small>Atividades de gestão no jogo!</small>
+            <i class="gi gi-gift"></i>@ViewBag.Title<br><small>Các hoạt động quản lý trong trò chơi!</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>Página Inicial</li>
-    <li>Games</li>
-    <li><a href="">Actives</a></li>
+    <li>Trang chủ</li>
+    <li>Trò chơi</li>
+    <li><a href="">Hoạt động</a></li>
 </ul>
-<!-- END Blank Alternative Header -->
+<!-- Kết thúc Tiêu đề thay thế trống -->
 
-<!-- Blank Alternative Content -->
+<!-- Nội dung thay thế trống -->
 <div class="block block-alt-noborder">
     <div class="sub-header">
         <div class="row">
@@ -25,7 +25,7 @@
                 <div style="width: 350px; ">
                     <form action="./" method="post" id="active-sale-search" onsubmit="return false;">
                         <div class="input-group">
-                            <input type="text" id="active-quick-search" name="key" class="form-control" placeholder="Buscar...">
+                            <input type="text" id="active-quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                             </span>
@@ -35,10 +35,10 @@
             </div>
             <div class="col-md-6 text-right">
                 <a href="@Html.Raw(Url.Action("OpenOrCloseActives","Actives", new { type = "closeall" }))" class="btn btn-alt btn-sm btn-danger" data-dialog="-1"
-                   id="btn-close-all" data-modal="openorclose"> <i class="fa fa-times"></i> Fechar todos os ativos
+                   id="btn-close-all" data-modal="openorclose"> <i class="fa fa-times"></i> Đóng tất cả hoạt động
                 </a>
                 <a href="@Html.Raw(Url.Action("OpenOrCloseActives","Actives", new { type = "openall" }))" class="btn btn-alt btn-sm btn-primary" data-dialog="-1"
-                   id="btn-open-all" data-modal="openorclose"> <i class="gi gi-circle_plus"></i> Abrir todos os ativos
+                   id="btn-open-all" data-modal="openorclose"> <i class="gi gi-circle_plus"></i> Mở tất cả hoạt động
                 </a>
                
             </div> 
@@ -50,14 +50,14 @@
             <p>@Html.Raw(StaticFunction.GetTranslation("Views.WaitLoading"))</p>
         </div>
     </div>
-    <!-- END HTML -->
+    <!-- Kết thúc HTML -->
 </div>
-<!-- END Blank Alternative Content -->
+<!-- Kết thúc Nội dung thay thế trống -->
 
 @section Scripts {
     <script>
         $(function () {
-            /* page load*/
+            /* tải trang */
             ModelGeneral.init('data-modal="openorclose"');
         });
     </script>

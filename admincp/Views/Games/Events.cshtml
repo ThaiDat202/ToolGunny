@@ -1,18 +1,18 @@
 ﻿@{
-    ViewBag.Title = "限时活动";
+    ViewBag.Title = "Sự kiện giới hạn thời gian";
 }
 
 <!-- Blank Alternative Header -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-gift"></i>@ViewBag.Title<br><small>随意修改限时活动</small>
+            <i class="gi gi-gift"></i>@ViewBag.Title<br><small>Vui lòng sửa đổi các hoạt động trong thời gian giới hạn</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
-    <li>游戏</li>
+    <li>Trang chủ</li>
+    <li>Games</li>
     <li><a href="">@ViewBag.Title</a></li>
 </ul>
 <!-- END Blank Alternative Header -->
@@ -23,7 +23,7 @@
             <div class="col-md-4">
                 <form action="./" method="post" id="frm-event-quick-search" onsubmit="return false;">
                     <div class="input-group">
-                        <input type="text" id="event-quick-search" name="key" class="form-control" placeholder="搜索...">
+                        <input type="text" id="event-quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                         <span class="input-group-btn">
                             <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                         </span>
@@ -31,14 +31,14 @@
                 </form>
             </div>
             <div class="col-md-4">
-                <select id="event-enddate-chosen" name="event-enddate-chosen" class="select-chosen" data-placeholder="Escolher..">
-                    <option value="0">全部活动</option>
-                    <option value="1">未过期的活动</option>
-                    <option value="2">已过期的活动</option>
+                <select id="event-enddate-chosen" name="event-enddate-chosen" class="select-chosen" data-placeholder="Chọn..">
+                    <option value="0">Tất cả các hoạt động</option>
+                    <option value="1">Hoạt động chưa hết hạn</option>
+                    <option value="2">Hoạt động đã hết hạn</option>
                 </select>
             </div>            
             <div class="col-md-4">
-                <a href="@Html.Raw(Url.Action("SendReloadToService", "Service", new { cmd = "active" }))" class="btn btn-sm btn-success" id="btn-schema-xml">更新数据</a>              
+                <a href="@Html.Raw(Url.Action("SendReloadToService", "Service", new { cmd = "active" }))" class="btn btn-sm btn-success" id="btn-schema-xml">Cập nhật dữ liệu</a>              
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
     <div class="row">
         <div class="col-md-4" style="border-right:1px dotted gray">
             <p class="text-warning" style="font-size:18px;">
-                <i class="gi gi-log_in"></i><small>限时活动列表</small>
+                <i class="gi gi-log_in"></i><small>Danh sách Event giới hạn thời gian</small>
             </p>       
             <div id="event-list">
                 <div class="text-center text-warning">
@@ -57,10 +57,10 @@
         </div>
         <div class="col-md-8">
             <p class="text-warning" style="font-size:18px">
-                <i class="gi gi-log_out"></i><small> 奖励列表</small> <strong><span id="event-header" class="text-danger">..</span></strong>
+                <i class="gi gi-log_out"></i><small> Danh sách phần thưởng</small> <strong><span id="event-header" class="text-danger">..</span></strong>
                 <a href="@Html.Raw(Url.Action("AddItemsModel","Games", new { type = "active" }))" class="btn btn-alt btn-sm btn-default pull-right" data-dialog="-1"
                    id="btn-add-event-award">
-                    <i class="gi gi-circle_plus text-primary"></i> 更多新奖励
+                    <i class="gi gi-circle_plus text-primary"></i> Thêm phần thưởng mới
                 </a>
             </p>  
             <div id="event-award-list">

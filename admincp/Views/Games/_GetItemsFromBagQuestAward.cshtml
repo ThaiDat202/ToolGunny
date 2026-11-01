@@ -17,7 +17,7 @@
                 <div class="media-body">
                     <span class="text-warning pull-right"><small><em>任务ID <i class="gi gi-chevron-right" style="font-size:8px"></i>@item.QuestID</em></small></span>
                     <a href="javascript:void(0)"><strong>@Html.TItemName(item.RewardItemID)</strong></a>
-                    <div><em>物品ID:</em> @item.RewardItemID | <em>数量:</em> @item.RewardItemCount1</div>
+                    <div><em>ID mặt hàng:</em> @item.RewardItemID | <em>Số lượng:</em> @item.RewardItemCount1</div>
                     <span class="btn-group">
                         <a href="@Html.Raw(Url.Action("EditItemInBag","Games", new { id = item.RewardItemID, type = Request.QueryString["type"]}))" class="btn btn-xs btn-success"
                            data-modal="editTopAwardInBag"><i class="fa fa-pencil"></i></a>

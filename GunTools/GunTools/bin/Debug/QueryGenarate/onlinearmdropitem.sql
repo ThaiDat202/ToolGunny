@@ -1,0 +1,15 @@
+﻿INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (1, 1, 1, 55, 33, 12, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (2, 1, 2, 51, 35, 14, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (3, 1, 3, 45, 38, 17, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (4, 1, 4, 37, 42, 21, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (5, 1, 5, 27, 47, 26, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (6, 2, 2, 25, 26, 33, 12, 4, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (7, 2, 3, 19, 23, 36, 15, 7, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (8, 2, 4, 11, 19, 40, 19, 11, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (9, 2, 5, 1, 14, 45, 24, 16, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (10, 3, 3, 2, 19, 26, 33, 12, 6, 2, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (11, 3, 4, 0, 9, 22, 37, 16, 10, 6, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (12, 3, 5, 0, 0, 11, 42, 21, 15, 11, 0, 0, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (13, 4, 4, 0, 0, 19, 26, 33, 12, 6, 3, 1, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (14, 4, 5, 0, 0, 9, 21, 28, 17, 11, 8, 6, 0, 0);
+INSERT INTO OnlineArmDropInfo (ID, FloorCount, PickAxeLevel, Rate1, Rate2, Rate3, Rate4, Rate5, Rate6, Rate7, Rate8, Rate9, Rate10, Rate11) VALUES (15, 5, 5, 0, 0, 0, 16, 26, 33, 12, 6, 4, 2, 1);

@@ -11,8 +11,8 @@
             </div>
             <div class="sidebar-user-name">@Html.TUserNameFor(content)</div>
             <div class="sidebar-user-links">
-                <a href="@Url.Action("Index","Manage")" data-toggle="tooltip" data-placement="bottom" title="账号管理"><i class="gi gi-user"></i></a>
-                <a href="@Url.Action("LogOff","Account")" data-toggle="tooltip" data-placement="bottom" title="退出"><i class="gi gi-exit"></i></a>
+                <a href="@Url.Action("Index","Manage")" data-toggle="tooltip" data-placement="bottom" title="Quản lý tài khoản"><i class="gi gi-user"></i></a>
+                <a href="@Url.Action("LogOff","Account")" data-toggle="tooltip" data-placement="bottom" title="Exit"><i class="gi gi-exit"></i></a>
             </div>
         </div>
     }
@@ -20,8 +20,8 @@
     {
         <div class="sidebar-section sidebar-themes clearfix sidebar-nav-mini-hide">
             <div class="btn-group btn-group-justified btn-group-sm">
-                @Html.ActionLink("登录", "Login", "Account", routeValues: null, htmlAttributes: new { id = "login-link", @class = "btn btn-sm btn-success" })
-                @Html.ActionLink("注册", "Register", "Account", routeValues: null, htmlAttributes: new { id = "login-link", @class = "btn btn-alt btn-default" })
+                @Html.ActionLink("Đăng Nhập", "Login", "Account", routeValues: null, htmlAttributes: new { id = "login-link", @class = "btn btn-sm btn-success" })
+                @Html.ActionLink("Đăng Kí", "Register", "Account", routeValues: null, htmlAttributes: new { id = "login-link", @class = "btn btn-alt btn-default" })
             </div>
         </div>
     }

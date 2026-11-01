@@ -28,7 +28,7 @@
                                     <a href="@Html.Raw(Url.Action("EditActive","Games", new { id = item.ActiveID}))" class="btn btn-xs btn-warning"
                                        data-toggle="tooltip" title="Editar" data-modal="editactive"><i class="gi gi-edit"></i></a>
                                     <a href="@Url.Action("DeleteActive", "Games", routeValues: new { id = item.ActiveID })" data-modal="deleteactive"
-                                       data-toggle="tooltip" title="Apagar" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                       data-toggle="tooltip" title="Tắt" class="btn btn-danger"><i class="fa fa-times"></i></a>
                                 </div>
                                 <span class="pull-right text-warning" style="font-size:11px"><em>@item.EndDate.ToString("dd-MM-yyyy")</em></span>
                             </div>
@@ -53,8 +53,8 @@
 <div class="row">
     <div class="col-md-3">
         <div class="btn-group btn-group-sm">
-            <a href="javascript:void(0)" class="btn btn-warning" data-toggle="tooltip" title="Apagar event obter Escolher" data-dialog="get"><i class="fa fa-times"></i></a>
-            <a href="javascript:void(0)" class="btn btn-info" data-toggle="tooltip" title="Gia hạn event obter Escolher" data-dialog="get"><i class="hi hi-repeat"></i></a>
+            <a href="javascript:void(0)" class="btn btn-warning" data-toggle="tooltip" title="Xóa sự kiện nhận Chọn" data-dialog="get"><i class="fa fa-times"></i></a>
+            <a href="javascript:void(0)" class="btn btn-info" data-toggle="tooltip" title="Gia hạn sự kiện nhận Chọn" data-dialog="get"><i class="hi hi-repeat"></i></a>
         </div>
     </div>
     <div class="col-md-7">
@@ -73,11 +73,11 @@
             <div class="btn-group btn-group-sm dropup">
                 <a href="javascript:void(0)" class="btn btn-primary pull-right dropdown-toggle" data-toggle="dropdown"><i class="gi gi-disk_open"></i></a>
                 <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                    <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Lựa Escolher</li>
+                    <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Lựa Chọn </li>
                     <li>
-                        <a href="javascript:void(0)">Hũy Todos event</a>
-                        <a href="javascript:void(0)">Gia hạn Todos event</a>
-                        <a href="javascript:void(0)">Apagar hết event hết hạn</a>
+                        <a href="javascript:void(0)">Hũy tất cả event</a>
+                        <a href="javascript:void(0)">Gia hạn tất cả event</a>
+                        <a href="javascript:void(0)">Tắt hết event hết hạn</a>
                     </li>
                 </ul>
             </div>

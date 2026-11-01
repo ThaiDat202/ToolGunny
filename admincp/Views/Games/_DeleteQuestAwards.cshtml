@@ -1,7 +1,7 @@
 ﻿@model List<SqlDataProvider.Data.QuestAwardInfo>
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "确认删除";
+    ViewBag.Title = "确认Xóa";
     string callBackStr = "'" + Request.QueryString["table"] + "', ";
     callBackStr += "'" + Request.QueryString["key"] + "', ";
     callBackStr += Request.QueryString["cid"] == null ? "-1, " : Request.QueryString["cid"] + ", ";
@@ -29,8 +29,8 @@
                  func = "reloadData("+ callBackStr + ")" }))"
           class="form-horizontal" id="form-confirm" method="post" role="form">
         <div class="form-actions text-right">
-            <input class="btn btn-sm btn-danger " type="submit" value="删除" />
-            <input class="btn btn-sm btn-success " type="button" value="取消" data-dismiss="modal" />
+            <input class="btn btn-sm btn-danger " type="submit" value="Xóa" />
+            <input class="btn btn-sm btn-success " type="button" value="Cancel" data-dismiss="modal" />
         </div>
     </form>
 </div>

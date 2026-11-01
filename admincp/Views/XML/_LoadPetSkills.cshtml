@@ -10,11 +10,11 @@
     <div style="display:none" id="total-items">
         @if (ViewData["key"] == null || string.IsNullOrWhiteSpace((string)ViewData["key"]))
         {
-            <p class="text-info" style="font-size:14px">共加载<strong class="text-danger">@Model.TotalItemCount</strong>个</p>
+            <p class="text-info" style="font-size:14px">Tổng cộng<strong class="text-danger">@Model.TotalItemCount</strong>Trang</p>
         }
         else
         {
-            <p class="text-info" style="font-size:14px">共加载<strong class="text-danger">@Model.TotalItemCount</strong>个</p>
+            <p class="text-info" style="font-size:14px">Tổng cộng<strong class="text-danger">@Model.TotalItemCount</strong>Trang</p>
         }
     </div>
 }
@@ -39,7 +39,7 @@
                         <th>NewBallID</th>
                         <th>CostMP</th>
                         <th>Pic</th>
-                        <th style="width: 80px;" class="text-center">操作</th>
+                        <th style="width: 80px;" class="text-center">vận hành</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -64,7 +64,7 @@
                             <td class="text-center">
                                 <div class="btn-group btn-group-xs">
                                     <a href="@Html.Raw(Url.Action("Import", "XML", routeValues: new { ids = id, xml = ViewData["xml"] , url = ViewData["url"], isNew = false }))" data-modal="import"
-                                       data-toggle="tooltip" title="导入道具到数据库中" class="btn btn-warning"><i class="gi gi-disk_import"></i></a>
+                                       data-toggle="tooltip" title="导入道具到Cơ sở dữ liệu中" class="btn btn-warning"><i class="gi gi-disk_import"></i></a>
                                 </div>
                             </td>
                         </tr>
@@ -76,7 +76,7 @@
             <div class="col-md-3">
                 <div class="btn-group btn-group-sm">
                     <a href="@Html.Raw(Url.Action("Import", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"] , isNew = false }))"
-                       class="btn btn-warning" data-toggle="tooltip" title="导入选择目标到数据库" data-modal="Selected"><i class="gi gi-disk_import"></i></a>
+                       class="btn btn-warning" data-toggle="tooltip" title="导入Chọn目标到Cơ sở dữ liệu" data-modal="Selected"><i class="gi gi-disk_import"></i></a>
                 </div>
             </div>
             <div class="col-md-7">
@@ -95,21 +95,21 @@
             <div class="col-md-2">
                 <div class="btn-group btn-group-sm pull-right">
                     <div class="btn-group btn-group-sm dropup">
-                        <a href="javascript:void(0)" class="btn btn-primary pull-right dropdown-toggle" data-toggle="dropdown">更多</a>
+                        <a href="javascript:void(0)" class="btn btn-primary pull-right dropdown-toggle" data-toggle="dropdown">More</a>
                         <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                            <li class="dropdown-header"><i class="fa fa-share pull-right"></i>选择</li>
+                            <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Chọn</li>
                             <li>
-                                <a href="javascript:reload()">刷新</a>
-                                <a href="@Html.Raw(Url.Action("XmlView", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"], isView = true }))" data-modal="viewXml">XML视图</a>
+                                <a href="javascript:reload()">Refresh</a>
+                                <a href="@Html.Raw(Url.Action("XmlView", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"], isView = true }))" data-modal="viewXml">Xem File XML</a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="@Html.Raw(Url.Action("SaveToXml", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"]}))" data-modal="savetoxml">另存为XML文件</a>
-                                <a href="@Html.Raw(Url.Action("Import", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"] , isNew = true }))" data-modal="import">导入官服最新道具至数据库</a>
+                                <a href="@Html.Raw(Url.Action("SaveToXml", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"]}))" data-modal="savetoxml">Lưu dưới dạng tệp XML</a>
+                                <a href="@Html.Raw(Url.Action("Import", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"] , isNew = true }))" data-modal="import">Import new Item từ Gunny vào Database</a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="@Html.Raw(Url.Action("Import", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"] , isNew = false }))" data-modal="import">导入官服所有道具至数据库</a>
+                                <a href="@Html.Raw(Url.Action("Import", "XML", routeValues: new { xml = ViewData["xml"] , url = ViewData["url"] , isNew = false }))" data-modal="import">Import tất cả Item từ Gunny vào Database</a>
                             </li>
                         </ul>
                     </div>
@@ -152,7 +152,7 @@
                 }).toArray();
 
                 if (_checked.length == 0) {
-                    showGrowl('请选择需要批量导入的道具', 'danger');
+                    showGrowl('Vui lòng chọn Items để Import', 'danger');
                     return false;
                 }                
                 url += '&ids=' + _checked;

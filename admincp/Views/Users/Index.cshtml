@@ -1,7 +1,7 @@
 ﻿@using SqlDataProvider.Data;
 @model List<AreaConfigInfo>
 @{
-    ViewBag.Title = "用户数据";
+    ViewBag.Title = "Dữ liệu người dùng";
 }
 <!-- Header -->
 <div class="content-header">
@@ -12,7 +12,7 @@
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
+    <li>Trang chủ</li>
     <li><a href="javascript:void(0)">@ViewBag.Title</a></li>
 </ul>
 <!-- END Header -->
@@ -23,9 +23,9 @@
         <div class="col-sm-4">
             <div class="form-horizontal form-control-borderless">
                 <div class="form-group">
-                    <label class="col-md-2 control-label" for="server-chosen">大区</label>
+                    <label class="col-md-2 control-label" for="server-chosen">Server</label>
                     <div class="col-md-8">
-                        <select id="server-chosen" name="server-chosen" class="select-chosen" data-placeholder="请选择你要管理的大区..." style="width: 250px;">
+                        <select id="server-chosen" name="server-chosen" class="select-chosen" data-placeholder="Vui lòng chọn khu vực bạn muốn quản lý..." style="width: 250px;">
                             <option value="-1"></option>
                             @foreach (AreaConfigInfo item in Model)
                             {
@@ -39,9 +39,9 @@
         <div class="col-sm-4">
             <div class="form-horizontal form-control-borderless">
                 <div class="form-group">
-                    <label class="col-md-2 control-label" for="tables-chosen">表</label>
+                    <label class="col-md-2 control-label" for="tables-chosen">Danh sách</label>
                     <div class="col-md-8" id="select-table-name">
-                        <select id="tables-chosen" name="tables-chosen" class="select-chosen" data-placeholder="选择大区后,即可出现选择项..." style="width: 250px;">
+                        <select id="tables-chosen" name="tables-chosen" class="select-chosen" data-placeholder="Sau khi Chọn Server sẽ xuất hiện mục Chọn..." style="width: 250px;">
                             <option value="-1"></option><!-- Required for data-placeholder attribute to work with Chosen plugin -->                            
                         </select>
                     </div>
@@ -54,7 +54,7 @@
                     <div class="form-group">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="text" id="quick-search" name="key" class="form-control" placeholder="搜索...">
+                                <input type="text" id="quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                                 <span class="input-group-btn">
                                     <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                 </span>
@@ -72,7 +72,7 @@
 <div class="block">
     <!-- Table Styles Title -->
     <div class="block-title">
-        <h2>表<strong id="table-name">未被选中</strong></h2>
+        <h2>Danh sách<strong id="table-name">không được chọn</strong></h2>
     </div>    
     <!-- END Table Styles Title -->
     <!-- Table Styles Content -->
@@ -116,10 +116,10 @@
                     var zoneID = $("#server-chosen").val();
                     var table = $("#tables-chosen").val();
                     if (zoneID == -1) {
-                        showGrowl('请选择你要管理的大区', '错误');
+                        showGrowl('请Chọn你要管理的Server', '错误');
                     }
                     else if (table == -1) {
-                        showGrowl('请选择你要管理的表', '错误');
+                        showGrowl('请Chọn你要管理的Danh sách', '错误');
                     }
                     else {
                         var loadurl = '@Url.Action("LoadData", "Users")?id=' + zoneID + '&table=' + table;

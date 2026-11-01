@@ -31,7 +31,7 @@
         <div class="form-group form-actions">
             <div class="col-md-12 text-right">
                 <a href="@Html.Raw(Url.Action("SaveToXml", "XML", routeValues: new {xml = Request.QueryString["xml"], url = Request.QueryString["url"]}))"
-                   class="btn btn-sm btn-warning" data-toggle="tooltip" data-modal="saveviewtoxml">另存为XML文件</a>
+                   class="btn btn-sm btn-warning" data-toggle="tooltip" data-modal="saveviewtoxml">Lưu dưới dạng tệp XML</a>
                 <button type="button" class="btn btn-sm btn-primary btn-close" data-dismiss="modal"> @StaticFunction.GetTranslation("Model.CLose")</button>
             </div>
         </div>
@@ -56,7 +56,7 @@ else
     <div class="form-group form-actions">
         <div class="col-md-12 text-right">
             <a href="@Html.Raw(Url.Action("SaveToXml", "XML", routeValues: new {xml = ViewData["xml"], url = ViewData["url"]}))"
-               class="btn btn-sm btn-warning" data-toggle="tooltip" data-modal="saveviewtoxml">另存为XML文件</a>
+               class="btn btn-sm btn-warning" data-toggle="tooltip" data-modal="saveviewtoxml">Lưu dưới dạng tệp XML</a>
         </div>
     </div>
             <br />

@@ -18,7 +18,7 @@
     <div class="sub-header">
         <div class="row text-warning" style="font-size:18px">           
             <div class="col-md-2">
-                <select id="server-chosen" name="server-chosen" class="select-chosen" data-placeholder="选择服务器.." style="width: 250px;">
+                <select id="server-chosen" name="server-chosen" class="select-chosen" data-placeholder="Chọn máy chủ.." style="width: 250px;">
                     <option value="-1"></option>
                     @foreach (AreaConfigInfo item in areas)
                     {
@@ -28,10 +28,10 @@
 
             </div>
             <div class="col-md-3">
-                <select id="code-view-chosen" name="code_chosen" class="select-chosen" data-placeholder="Escolher..">
-                    <option value="0">所有激活码</option>
-                    <option value="1">已使用的激活码</option>
-                    <option value="2">未使用的激活码</option>
+                <select id="code-view-chosen" name="code_chosen" class="select-chosen" data-placeholder="Chọn..">
+                    <option value="0">Tất cả code </option>
+                    <option value="1">Code đã kích hoạt</option>
+                    <option value="2">Code chưa kích hoạt</option>
                 </select>
             </div>  
             <div class="col-md-4 text-right">
@@ -39,7 +39,7 @@
                     <div class="form-group">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="text" id="quick-search" name="key" class="form-control" placeholder="搜索...">
+                                <input type="text" id="quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                                 <span class="input-group-btn">
                                     <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                 </span>
@@ -51,7 +51,7 @@
             <div class="col-md-3">    
                 <div class="row">
                     <div class="col-md-6">                        
-                        <select id="code-count-chosen" name="code_count_chosen" class="select-chosen" data-placeholder="激活码数量..">
+                        <select id="code-count-chosen" name="code_count_chosen" class="select-chosen" data-placeholder="Số lượng code kích hoạt...">
                             <option value="-1"></option>
                             <option value="1">1</option>
                             <option value="10">10</option>
@@ -62,7 +62,7 @@
                     </div>  
                     <div class="col-md-4">
                         <a href="@Url.Action("LoadActiveNumber", "Games", new { id = activeId })" id="create-giftcode" class="btn btn-alt btn btn-warning">
-                            生成激活码
+                            Tạo code kích hoạt...
                         </a>
                     </div>  
                 </div>  
@@ -101,12 +101,12 @@
         $("#create-giftcode").bind("click", function (e) {
             var zoneID = $("#server-chosen").val();
             if (zoneID == -1) {
-                showGrowl("大区ID错误", 'danger');
+                showGrowl("Lỗi ID khu vực", 'danger');
                 return false;
             }
             var codeCount = $("#code-count-chosen").val();
             if (codeCount == -1) {
-                showGrowl("生成激活码数值不能为-1", 'danger');
+                showGrowl("Tạo code kích hoạt...Giá trị không thể là -1", 'danger');
                 return false;
             }
             var url = this.href + '?zid=' + zoneID + '&opt=' + codeCount;
@@ -120,7 +120,7 @@
             var key = $(this).val();
             var zoneID = $("#server-chosen").val();
             if (zoneID == -1) {
-                showGrowl('大区ID错误', 'danger');
+                showGrowl('Lỗi ID khu vực', 'danger');
             }
             else {
                 var url = '@Url.Action("LoadActiveNumber", "Games", new { id = activeId })?zid=' + zoneID + '&key=' + key;

@@ -10,16 +10,16 @@
     <thead>
         <tr>
             <th style="width: 25px;" class="text-center">
-                <label data-toggle="tooltip" title="Escolher Todos">
+                <label data-toggle="tooltip" title="Chọn Tất cả">
                     <input type="checkbox">
                     <span></span>
                 </label>
             </th>
-            <th style="width: 366px;" class="text-center">名称</th>
-            <th>物品ID</th>
-            <th>是否装备</th>
-            <th>数量</th>
-            <th>有效期</th>
+            <th style="width: 366px;" class="text-center">Tên</th>
+            <th>ID Mặt hàng</th>
+            <th>Có Đã trang bị</th>
+            <th>Số lượng</th>
+            <th>Hạn sử dụng</th>
             <th style="width: 40px;" class="text-center"></th>
         </tr>
     </thead>
@@ -50,11 +50,11 @@
                     <td>
 					@if (item.Place <= 30 && item.BagType == 0)
 					{
-						<span class="text-success">已装备</span>
+						<span class="text-success">Đã trang bị</span>
 					}
 					else
 					{
-						<span class="text-danger">未装备</span>
+						<span class="text-danger">Chưa trang bị</span>
 					}
 					
 					</td>
@@ -62,17 +62,17 @@
                     <td>
 						@if (item.ValidDate == 0)
 						{
-							<span class="text-success">永久</span>
+							<span class="text-success">Vĩnh viễn</span>
 						}
 						else
 						{ 
-							<span class="text-info">@item.ValidDate 天 </span>
+							<span class="text-info">@item.ValidDate ngày</span>
 						}
 					</td>
                     <td class="text-center">
                         <div class="btn-group btn-group-xs">
                             <a href="@Html.Raw(Url.Action("DeleteUsersData", "Users", routeValues: new { ids = item.ItemID, zid = zoneId, type = "ItemInfo", func = "loadDataSub()" }))"
-                               data-toggle="tooltip" data-modal="deleteUsersData" title="Apagar" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                               data-toggle="tooltip" data-modal="deleteUsersData" title="Xóa" class="btn btn-danger"><i class="fa fa-times"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -82,10 +82,10 @@
             <tr>
                 <td colspan="7">
                     <div class="btn-group btn-group-sm pull-right">
-                        <span class="text-info"><strong>共计: </strong></span><span class="text-success">@Model.TotalItemCount 个道具</span>
+                        <span class="text-info"><strong>Tổng cộng: </strong></span><span class="text-success">@Model.TotalItemCount mục hàng</span>
                     </div>
                     <div class="btn-group btn-group-sm">
-                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="tooltip" data-dialog="delSelectItem">删除选中的道具</a>
+                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="tooltip" data-dialog="delSelectItem">Xóa mục hàng đã chọn</a>
                     </div>
                     <div class="text-center" style="margin-top:-35px">
                         @Html.Pager(Model.PageSize, Model.PageNumber, Model.TotalItemCount, new AjaxOptions { UpdateTargetId = "detail-content", LoadingElementId = "loading-bgr" }).Options(o => o
@@ -105,7 +105,7 @@
         <tbody>
             <tr>
                 <td colspan="7" class="text-center" id="insert-avatar">
-                    @Html.Raw(StaticFunction.GetTranslation("Views.Empty"))
+                    @Html.Raw(StaticFunction.GetTranslation("Không có dữ liệu"))
                 </td>
             </tr>
         </tbody>
@@ -127,7 +127,7 @@
             }).toArray();
 
             if (_checked.length == 0) {
-                showGrowl("未知错误.", 'danger');
+                showGrowl("Lỗi không xác định.", 'danger');
                 return false;
             }
             var url = '@Html.Raw(Url.Action("DeleteUsersData", "Users", routeValues: new {zid = zoneId, type = "ItemInfo", func = "loadDataSub()" }))';
@@ -151,4 +151,3 @@
     }
     </script>
 }
-

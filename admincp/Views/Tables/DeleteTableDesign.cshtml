@@ -1,7 +1,7 @@
 ﻿@model GM.Service.Models.RequestResultModel
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "Apagar Item";
+    ViewBag.Title = "Tắt Item";
 }
 <div class="modal-header @Model.GetThemed()">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -20,7 +20,7 @@
         <div class="form-actions text-right">
             @if (!string.IsNullOrEmpty(Model.Name))
             {
-                <input class="btn btn-sm btn-danger" type="submit" value="Apagar Item" />
+                <input class="btn btn-sm btn-danger" type="submit" value="Tắt Item" />
             }
             <input class="btn btn-sm btn-success" type="button" value="Cancelar" data-dismiss="modal" />
         </div>

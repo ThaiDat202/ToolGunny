@@ -1,7 +1,7 @@
 ﻿@using SqlDataProvider.Data;
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "道具列表";
+    ViewBag.Title = "Danh sách đạo cụ";
     CategoryInfo[] categorys = StaticFunction.GetCategory();
     var m_type = Request.QueryString["type"];
     var m_tid = Request.QueryString["tid"];
@@ -25,7 +25,7 @@
         <div class="col-md-6">
             <div class="form-group">
                 <div class="col-md-6" style="margin-left:-15px">
-                    <select id="chosen-category" name="chosen-category" class="select-chosen" data-placeholder="请选择需要显示的物品类型...">
+                    <select id="chosen-category" name="chosen-category" class="select-chosen" data-placeholder="Vui lòng chọn các mục để hiển thị Loại...">
                         <option></option>
                         @foreach (CategoryInfo cat in categorys)
                         {
@@ -40,7 +40,7 @@
                 <div class="form-group">
                     <div class="col-md-8 pull-right">
                         <div class="input-group">
-                            <input type="text" id="quick-search" name="key" class="form-control" placeholder="请输入需要搜索的物品ID...">
+                            <input type="text" id="quick-search" name="key" class="form-control" placeholder="Vui lòng nhập ID mặt hàng cần tìm...">
                             <span class="input-group-btn">
                                 <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                             </span>
@@ -58,7 +58,7 @@
                 <!-- Bag Title -->
                 <div class="block-title clearfix">
                     <div class="block-options">
-                        道具列表
+                        Danh sách đạo cụ
                     </div>
                 </div>
                 <!-- END Items Title -->
@@ -73,7 +73,7 @@
             <!-- END Items Block -->
             <!-- Regular -->
             <div style="display:none;" id="quick-add">
-                <textarea id="list-template-ids" name="Detail" rows="32" class="form-control"  placeholder="请输入物品ID, 例如: 11025,11002,11006,11010,11014,313201,313102,313107,313108,312101,312102,312111,311101,311103,311121,11001,11005,11009,11013 "></textarea>
+                <textarea id="list-template-ids" name="Detail" rows="32" class="form-control"  placeholder="Vui lòng nhập ID..., 例如: 11025,11002,11006,11010,11014,313201,313102,313107,313108,312101,312102,312111,311101,311103,311121,11001,11005,11009,11013 "></textarea>
             </div>
             <!-- END Regular -->
 
@@ -84,11 +84,11 @@
                 <!-- Bag Title -->
                 <div class="block-title clearfix">
                     <div class="block-options">
-                       添加物品
+                       Thêm mục
                         <a href="@Html.Raw(Url.Action("AddItemsTo", "Games", new { type = m_type, msg = m_name}))"
                            class="btn btn-alt btn-sm btn-default pull-right" data-growl="additemto" id="btn-add-top-award" style="margin-top:4px">
                             <i class="gi gi-circle_plus text-primary"></i>
-                            <span class="text-success">点击添加至数据库</span>
+                            <span class="text-success">Bấm để thêm vào cơ sở dữ liệu</span>
                         </a>
                     </div>
                 </div>
@@ -109,12 +109,12 @@
 <div class="modal-footer">
     <div class="form-actions">
         <div class="text-left">
-            @Html.ActionLink("添加选中道具", "AddItemsToBag", "Games", new { type = m_type, tid = m_tid, name = m_name },
+            @Html.ActionLink("Thêm đạo cụ đã chọn", "AddItemsToBag", "Games", new { type = m_type, tid = m_tid, name = m_name },
             new { id = "add-to-bag", @class = "btn btn-sm btn-success" })
-            <a href="javascritp:void(0);" id="show-quick-add-to-bag" class="btn btn-sm btn-danger">手动输入物品ID</a>            
-            <button style="display:none;" type="button" class="btn btn-sm btn-warning" id="quick-add-to-bag">添加道具</button>
-            <button style="display:none;" type="button" class="btn btn-sm btn-primary" id="back-finder">返回</button>
-            <button type="button" class="btn btn-sm btn-primary pull-right btn-dismiss" data-dismiss="modal">关闭</button>
+            <a href="javascritp:void(0);" id="show-quick-add-to-bag" class="btn btn-sm btn-danger">Nhập ID mặt hàng </a>            
+            <button style="display:none;" type="button" class="btn btn-sm btn-warning" id="quick-add-to-bag">Thêm đạo cụ</button>
+            <button style="display:none;" type="button" class="btn btn-sm btn-primary" id="back-finder">Quay lại</button>
+            <button type="button" class="btn btn-sm btn-primary pull-right btn-dismiss" data-dismiss="modal">Đóng</button>
         </div>
     </div>
 </div>
@@ -173,7 +173,7 @@
                 }).toArray();
 
                 if (_checked.length == 0) {
-                    showGrowl('Bạn Não selecionado item. Vui lòng Escolher và thử lại', 'danger');
+                    showGrowl('Bạn không được chọn item. Vui lòng chọn và thử lại', 'danger');
                     return false;
                 }
                 var params = 'ids=' + _checked;

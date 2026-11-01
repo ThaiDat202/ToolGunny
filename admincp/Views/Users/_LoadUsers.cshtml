@@ -9,11 +9,11 @@
 {
     if(ViewData["key"] == null || string.IsNullOrWhiteSpace((string)ViewData["key"]))
     {
-        <p class="text-info">共计 <strong class="text-danger">@Model.TotalItemCount</strong> 个玩家帐号</p>
+        <p class="text-info">Tổng cộng <strong class="text-danger">@Model.TotalItemCount</strong> tài khoản người chơi</p>
     }
     else
     {
-        <p class="text-info">共计 <strong class="text-danger">@Model.TotalItemCount</strong> 个玩家帐号</p>
+        <p class="text-info">Tổng cộng <strong class="text-danger">@Model.TotalItemCount</strong> tài khoản người chơi</p>
     }
 }
     <!--
@@ -30,21 +30,21 @@
         <thead>
             <tr>
                 <th style="width: 80px;" class="text-center">
-                    <label class="switch switch-primary" data-toggle="tooltip" title="Escolher Todos">
+                    <label class="switch switch-primary" data-toggle="tooltip" title="Chọn  tất cả">
                         <input type="checkbox">
                         <span></span>
                     </label>
                 </th>
                 <th class="text-center"><i class="gi gi-user"></i></th>
-                <th>昵称</th>
-                <th>玩家ID</th>
-                <th>用户名</th>               
-                <th>等级</th>
-                <th>战斗力</th> 
-                <th>点券</th>
-                <th>最后上线时间</th>
-                <th>在线状态</th>
-                <th style="width: 80px;" class="text-center">操作</th>
+                <th>Nickname</th>
+                <th>ID người chơi</th>
+                <th>Tên tài khoản</th>               
+                <th>Level</th>
+                <th>Lực chiến</th> 
+                <th>Xu</th>
+                <th>Lần Online cuối cùng</th>
+                <th>Trạng thái Online</th>
+                <th style="width: 80px;" class="text-center">vận hành</th>
             </tr>
         </thead>                  
             @if (Model.Count() > 0)
@@ -80,17 +80,17 @@
                             <td>
 								@if (item.State > 0)
 								{
-									<span class="text-success">在线</span>
+									<span class="text-success">Online</span>
 								}
 								else
 								{
-									<span class="text-danger">离线</span>
+									<span class="text-danger">Offline</span>
 								}
 							</td>
                             <td class="text-center">
                                 <div class="btn-group btn-group-xs">
                                     <a href="@Url.Action("Details", "Users", routeValues: new { id = item.ID , zId = zoneId })" data-toggle="showDetails" data-modal="showEdit"
-                                       title="编辑" class="btn btn-default"></a>
+                                       title="Chỉnh sửa" class="btn btn-default"></a>
                                 </div>
                             </td>
                         </tr>
@@ -101,7 +101,7 @@
                         <td colspan="11">
                             <div class="btn-group btn-group-sm">                               
                                 <a href="@Url.Action("KickOrForbid", "Users", routeValues: new { id = zoneId})" id="kick-forbid-player" class="btn btn-primary" 
-                                   data-toggle="tooltip" style="margin-left:15px" title="选中玩家封号">
+                                   data-toggle="tooltip" style="margin-left:15px" title="选中玩家Tiêu đề">
                                     <i class="fa fa-lock"></i>
                                 </a>
                             </div>

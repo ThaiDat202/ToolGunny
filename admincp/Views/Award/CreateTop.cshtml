@@ -1,80 +1,80 @@
 ﻿@model IEnumerable<SqlDataProvider.Data.TopInfo>
 @{
-    Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "新建排名奖励";
+     Layout = "~/Views/Shared/_RenderLayout.cshtml";
+     ViewBag.Title = "New Ranking Reward";
 }
 <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h4 class="modal-title">@ViewBag.Title </h4>
+     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+     <h4 class="modal-title">@ViewBag.Title </h4>
 </div>
 <div class="modal-body">
-    <!-- Form add -->
-    <div class="sub-header">
-        <div class="row text-warning" style="font-size:18px">
-            <div class="col-md-4 text-right">
-                <i class="gi gi-log_out"></i><small> 选择样式</small>
-            </div>
-            <div class="col-md-8 text-left">
-                <select id="template-chosen" name="template-chosen" class="select-chosen" data-placeholder="选择排名样式.." style="width: 150px;">
-                    <option></option>
-                    @foreach (var item in Model)
-                    {
-                        <option value="@item.Type">@item.Name</option>
-                    }
-                </select>
-            </div>
-        </div>
-    </div>
-    <form action="@Html.Raw(Url.Action("CreateTop", "Award"))"  method="post" class="form-horizontal form-bordered" id="frm-create-top">
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="ZoneID">大区</label>
-                <div class="col-md-8">
-                    <input type="text" id="ZoneID" name="ZoneID" class="form-control input-sm must-digits" value="" placeholder="输入大区ID，默认1001">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="Type">类型</label>
-                <div class="col-md-8">
-                    <input type="text" id="Type" name="Type" class="form-control input-sm must-digits" value="" placeholder="输入类型,例如: 1,2,3..">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="Name">奖励名称</label>
-                <div class="col-md-8">
-                    <input type="text" id="Name" name="Name" class="form-control input-sm must-required" value="" placeholder="输入奖励名称,例如: 战力排名,等级排名">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="Detail">详细描述</label>
-                <div class="col-md-8">
-                    <textarea id="Detail" name="Detail" rows="4" class="form-control must-required" placeholder="输入详细描述"></textarea>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="GetTable">通过表获取数据</label>
-                <div class="col-md-8">
-                    <input type="text" id="GetTable" name="GetTable" class="form-control input-sm must-required" value="" placeholder="通过表获取数据,例如: V_Sys_Users_Detail">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="Condition1">获取数据条件1</label>
-                <div class="col-md-8">
-                    <input type="text" id="Condition1" name="Condition1" class="form-control input-sm must-required" value="" placeholder="获取数据条件1,例如: Grade ">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-4 control-label" for="Condition2">获取数据条件2</label>
-                <div class="col-md-8">
-                    <input type="text" id="Condition2" name="Condition2" class="form-control input-sm must-required" value="" placeholder="获取数据条件2,例如: GP">
-                </div>
-            </div>
-        <div class="form-group form-actions">           
-            <div class="col-md-12 text-right">               
-                <button type="submit" class="btn btn-sm btn-primary btn-submit">创建</button>
-                <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">取消</button>
-            </div>
-        </div>
-    </form>
+     <!-- Form add -->
+     <div class="sub-header">
+         <div class="row text-warning" style="font-size:18px">
+             <div class="col-md-4 text-right">
+                 <i class="gi gi-log_out"></i><small>Select style</small>
+             </div>
+             <div class="col-md-8 text-left">
+                 <select id="template-chosen" name="template-chosen" class="select-chosen" data-placeholder="select ranking style.." style="width: 150px;">
+                     <option></option>
+                     @foreach (var item in Model)
+                     {
+                         <option value="@item.Type">@item.Name</option>
+                     }
+                 </select>
+             </div>
+         </div>
+     </div>
+     <form action="@Html.Raw(Url.Action("CreateTop", "Award"))" method="post" class="form-horizontal form-bordered" id="frm-create-top">
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="ZoneID">District</label>
+                 <div class="col-md-8">
+                     <input type="text" id="ZoneID" name="ZoneID" class="form-control input-sm must-digits" value="" placeholder="Input the zone ID, default 1001">
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="Type">Type</label>
+                 <div class="col-md-8">
+                     <input type="text" id="Type" name="Type" class="form-control input-sm must-digits" value="" placeholder="Input type, for example: 1,2,3.." >
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="Name">reward name</label>
+                 <div class="col-md-8">
+                     <input type="text" id="Name" name="Name" class="form-control input-sm must-required" value="" placeholder="Enter reward name, for example: combat power ranking, level ranking" >
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="Detail">Detailed description</label>
+                 <div class="col-md-8">
+                     <textarea id="Detail" name="Detail" rows="4" class="form-control must-required" placeholder="Enter detailed description"></textarea>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="GetTable">Get data through the table</label>
+                 <div class="col-md-8">
+                     <input type="text" id="GetTable" name="GetTable" class="form-control input-sm must-required" value="" placeholder="Get data through the table, for example: V_Sys_Users_Detail">
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="Condition1">Get data condition 1</label>
+                 <div class="col-md-8">
+                     <input type="text" id="Condition1" name="Condition1" class="form-control input-sm must-required" value="" placeholder="Get data condition 1, for example: Grade ">
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label class="col-md-4 control-label" for="Condition2">Get data condition 2</label>
+                 <div class="col-md-8">
+                     <input type="text" id="Condition2" name="Condition2" class="form-control input-sm must-required" value="" placeholder="Get data condition 2, for example: GP">
+                 </div>
+             </div>
+         <div class="form-group form-actions">
+             <div class="col-md-12 text-right">
+                 <button type="submit" class="btn btn-sm btn-primary btn-submit">Create</button>
+                 <button type="button" class="btn btn-sm btn-success" data-dismiss="modal">Cancel</button>
+             </div>
+         </div>
+     </form>
 
     <!-- END Form add -->    
 </div>

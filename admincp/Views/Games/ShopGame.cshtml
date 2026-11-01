@@ -1,6 +1,6 @@
 ﻿@using SqlDataProvider.Data;
 @{
-    ViewBag.Title = "游戏商城";
+    ViewBag.Title = "Trung tâm trò chơi";
     List<int> types = StaticFunction.GetShopType();
 }
 
@@ -8,14 +8,14 @@
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-shopping_bag"></i>@ViewBag.Title<br><small>游戏商城管理!</small>
+            <i class="gi gi-shopping_bag"></i>@ViewBag.Title<br><small>Quản lý cửa hàng trò chơi!</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
-    <li>游戏</li>
-    <li><a href="">游戏商城</a></li>
+    <li>Trang chủ</li>
+    <li>Games</li>
+    <li><a href="">Trung tâm trò chơi</a></li>
 </ul>
 <!-- END Blank Alternative Header -->
 <!-- Blank Alternative Content -->
@@ -23,8 +23,8 @@
     <div class="sub-header">
         <div class="row">
             <div class="col-md-4">
-                <select id="shop-type-chosen" name="shop-type-chosen" class="select-chosen" data-placeholder="选择类型">
-                    <optgroup label="女性商城">
+                <select id="shop-type-chosen" name="shop-type-chosen" class="select-chosen" data-placeholder="ChọnLoại">
+                    <optgroup label="Nữ">
                         @foreach (int type in types)
                         {
                             if (ShopCondition.FEMALE_MONEY.Contains((ShopType)type))
@@ -33,7 +33,7 @@
                             }
                         }
                     </optgroup>
-                    <optgroup label="女性商城">
+                    <optgroup label="Nữ">
                         @foreach (int type in types)
                         {
                             if (ShopCondition.FEMALE_DDTMONEY.Contains((ShopType)type))
@@ -42,7 +42,7 @@
                             }
                         }
                     </optgroup>
-                    <optgroup label="男性商城">
+                    <optgroup label="Nam">
                         @foreach (int type in types)
                         {
                             if (ShopCondition.MALE_MONEY.Contains((ShopType)type))
@@ -51,7 +51,7 @@
                             }
                         }
                     </optgroup>
-                    <optgroup label="男性商城">
+                    <optgroup label="Nam">
                         @foreach (int type in types)
                         {
                             if (ShopCondition.MALE_DDTMONEY.Contains((ShopType)type))
@@ -60,7 +60,7 @@
                             }
                         }
                     </optgroup>                    
-                    <optgroup label="礼品">
+                    <optgroup label="Quà">
                         @foreach (int type in types)
                         {
                             if (ShopCondition.GIFT_MONEY.Contains((ShopType)type))
@@ -69,7 +69,7 @@
                             }
                         }
                     </optgroup>
-                    <optgroup label="其他商店">
+                    <optgroup label="Khác">
                         @foreach (int type in types)
                         {
                             if (!((ShopType)type).ToString().Contains("M_") && !((ShopType)type).ToString().Contains("F_") && !ShopCondition.GIFT_MONEY.Contains((ShopType)type))
@@ -83,7 +83,7 @@
             <div class="col-md-4">
                 <form action="./" method="post" id="frm-shop-show-search" onsubmit="return false;">
                     <div class="input-group">
-                        <input type="text" id="shop-show-quick-search" name="key" class="form-control" placeholder="搜索...">
+                        <input type="text" id="shop-show-quick-search" name="key" class="form-control" placeholder="Tìm kiếm...">
                         <span class="input-group-btn">
                             <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                         </span>
@@ -92,7 +92,7 @@
             </div>
             <div class="col-md-4">
                 <a href="@Html.Raw(Url.Action("AddItemsModel","Games", new { type = "shopshow" }))" class="btn btn-alt btn-sm btn-default pull-right" data-dialog="-1" id="btn-add-shop-show">
-                    <i class="gi gi-circle_plus text-primary"></i> 添加新商品
+                    <i class="gi gi-circle_plus text-primary"></i> Thêm mục mới
                 </a>
             </div>
         </div>
@@ -101,7 +101,7 @@
     <div class="row">
         <div class="col-md-4">    
             <p class="text-warning" style="font-size:18px">
-                <i class="gi gi-log_in"></i> 装备 <small>可以点击右边的道具来展示装备哦</small>                
+                <i class="gi gi-log_in"></i> Trang bị <small>Bạn có thể nhấp vào đạo cụ bên phải để hiển thị Trang bị</small>                
             </p>        
             <div id="avatar-content">
                 <div class="text-center text-warning">
@@ -109,8 +109,8 @@
                 </div>
             </div>  
             <div style="width:225px">
-                <a href="javascript:resetAvatar()" class="btn btn-xs btn-success"><i class="hi hi-repeat"></i> 清空</a>
-                <!--<a href="javascript:showAvatar(-1, -1)" class="btn btn-xs btn-info pull-right">Tạo đồ Aleatorio</a>-->
+                <a href="javascript:resetAvatar()" class="btn btn-xs btn-success"><i class="hi hi-repeat"></i> Trống</a>
+                <!--<a href="javascript:showAvatar(-1, -1)" class="btn btn-xs btn-info pull-right">Tạo đồ ngẫu nhiên</a>-->
             </div>         
         </div>
         <div class="col-md-8" id="shop-show-list">

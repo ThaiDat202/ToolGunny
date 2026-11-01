@@ -1,87 +1,87 @@
 ﻿@using SqlDataProvider.Data;
 @model List<AreaConfigInfo>
 @{
-    ViewBag.Title = "Prêmios no Jogo";
-    ViewBag.Message = "Gestão no jogo Premios, intuitivo de usar!";    
+     ViewBag.Title = "In-Game Prizes";
+     ViewBag.Message = "Premios in-game management, intuitive to use!";
 }
-<!-- Header -->
+<!-- header -->
 <div class="content-header">
-    <div class="header-section">
-        <h1>
-            <i class="gi gi-server"></i>@ViewBag.Title<br>
-            <small>@ViewBag.Message</small>
-        </h1>
-    </div>
+     <div class="header-section">
+         <h1>
+             <i class="gi gi-server"></i>@ViewBag.Title<br>
+             <small>@ViewBag.Message</small>
+         </h1>
+     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>Página Inicial</li>
-    <li><a href="javascript:void(0)">@ViewBag.Title</a></li>
+     <li>Homepage</li>
+     <li><a href="javascript:void(0)">@ViewBag.Title</a></li>
 </ul>
 <!-- END Header -->
 
 <div class="block">
-    <!-- Main Row -->
-    <div class="row">
-        <div class="col-lg-4">
-            <!-- Edit Award Block -->
-            <div class="block">
-                <!-- Edit Award Title -->
-                <div class="block-title clearfix">                    
-                    <div class="block-options">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="@Html.Raw(Url.Action("CreateOnlineAward","Award"))" class="btn btn-alt btn-sm btn-default" data-dialog="addtop"><i class="gi gi-circle_plus text-primary"></i> Mais
-                                </a>
-                            </div>
-                            <div class="col-md-8">
-                                <select id="server-chosen" name="server-chosen" class="select-chosen" data-placeholder="Selecione um server..." style="width: 250px;">
-                                    <option></option>
-                                    <option value="-1">Todos server</option>
-                                    @foreach (AreaConfigInfo item in Model)
-                                    {
-                                        <option value="@item.AreaID">@item.AreaName</option>
-                                    }
-                                </select>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <!-- END Edit Award Title -->
-                <!-- Edit Award Content -->
-                <div id="top-content">
-                    <div class="text-center text-warning">
-                        <p>@Html.Raw(StaticFunction.GetTranslation("Views.WaitLoading"))</p>
-                    </div>
-                </div>
-                <!-- END Edit Award Content -->
-            </div>
-            <!-- END Edit Award Block -->
-        </div>
-        <div class="col-lg-8">
-            <!-- TopAward Block -->
-            <div class="block">
-                <!-- TopAward Title -->
-                <div class="block-title clearfix">
-                    <div class="block-options">
-                        Prêmios <i class="gi gi-chevron-right" style="font-size:8px"></i> <span id="award-header" class="text-success">Não selecionado..</span>
-                        <a href="@Html.Raw(Url.Action("AddItemsModel","Games", new { type = "topaward" }))" class="btn btn-alt btn-sm btn-default pull-right" 
-                        data-dialog="-1" id="btn-add-top-award" style="margin-top:4px"><i class="fa fa-pencil text-success"></i> Mais prêmios
-                        </a>
-                    </div>
-                </div>
-                <!-- END TopAward Title -->
-                <!-- TopAward Content -->
-                <div id="award-content">
-                    <div class="text-center text-warning">
-                        <p>@Html.Raw(StaticFunction.GetTranslation("Views.WaitLoading"))</p>
-                    </div>
-                </div>
-                <!-- END TopAward Content -->
-            </div>
-            <!-- END TopAward Block -->
-        </div>
-    </div>
-    <!-- END Main Row -->
+     <!-- Main Row -->
+     <div class="row">
+         <div class="col-lg-4">
+             <!-- Edit Award Block -->
+             <div class="block">
+                 <!-- Edit Award Title -->
+                 <div class="block-title clearfix">
+                     <div class="block-options">
+                         <div class="row">
+                             <div class="col-md-4">
+                                 <a href="@Html.Raw(Url.Action("CreateOnlineAward","Award"))" class="btn btn-alt btn-sm btn-default" data-dialog="addtop"><i class= "gi gi-circle_plus text-primary"></i> More
+                                 </a>
+                             </div>
+                             <div class="col-md-8">
+                                 <select id="server-chosen" name="server-chosen" class="select-chosen" data-placeholder="Select a server..." style="width: 250px;">
+                                     <option></option>
+                                     <option value="-1">All servers</option>
+                                     @foreach (AreaConfigInfo item in Model)
+                                     {
+                                         <option value="@item.AreaID">@item.AreaName</option>
+                                     }
+                                 </select>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- END Edit Award Title -->
+                 <!-- Edit Award Content -->
+                 <div id="top-content">
+                     <div class="text-center text-warning">
+                         <p>@Html.Raw(StaticFunction.GetTranslation("Views.WaitLoading"))</p>
+                     </div>
+                 </div>
+                 <!-- END Edit Award Content -->
+             </div>
+             <!-- END Edit Award Block -->
+         </div>
+         <div class="col-lg-8">
+             <!-- TopAward Block -->
+             <div class="block">
+                 <!-- TopAward Title -->
+                 <div class="block-title clearfix">
+                     <div class="block-options">
+                         Awards <i class="gi gi-chevron-right" style="font-size:8px"></i> <span id="award-header" class="text-success">Not selected..</ span>
+                         <a href="@Html.Raw(Url.Action("AddItemsModel","Games", new { type = "topaward" }))" class="btn btn-alt btn-sm btn-default pull-right"
+                         data-dialog="-1" id="btn-add-top-award" style="margin-top:4px"><i class="fa fa-pencil text-success"></i> More awards
+                         </a>
+                     </div>
+                 </div>
+                 <!-- END TopAward Title -->
+                 <!-- TopAward Content -->
+                 <div id="award-content">
+                     <div class="text-center text-warning">
+                         <p>@Html.Raw(StaticFunction.GetTranslation("Views.WaitLoading"))</p>
+                     </div>
+                 </div>
+                 <!-- END TopAward Content -->
+             </div>
+             <!-- END TopAward Block -->
+         </div>
+     </div>
+     <!-- END Main Row -->
 </div>
 <input type="hidden" value="all" id="default-category" />
 @section Scripts{

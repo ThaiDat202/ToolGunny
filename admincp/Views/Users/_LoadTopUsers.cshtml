@@ -9,35 +9,35 @@
     <table id="general-table" class="table table-striped table-vcenter">
         <thead>
             <tr>               
-                <th>编号</th>
+                <th>TopID</th>
                 <th class="text-center"><i class="gi gi-user"></i></th>
-                <th>昵称</th>
-                <th>玩家ID</th>
+                <th>Nickname</th>
+                <th>ID người chơi</th>
                 @if (ViewData["cond"].ToString() == "Grade")
                 {
-                    <th>等级</th>
+                    <th>Level</th>
                     <th>经验</th>
                 }
                 @if (ViewData["cond"].ToString() == "FightPower")
                 {
-                    <th>战斗力</th>
+                    <th>Lực chiến</th>
                 }     
                 @if (ViewData["cond"].ToString() == "curLevel")
                 {
-                    <th>坐骑等级</th>
+                    <th>Level gắn kết</th>
                     <th>坐骑经验</th>
                 }            
                 @if (ViewData["cond"].ToString() == "evolutionGrade")
                 {
-                    <th>宠物进化等级</th>
+                    <th>宠物进化Level</th>
                     <th>宠物进化经验</th>
                 }
                 @if (ViewData["cond"].ToString() == "Money")
                 {
-                    <th>点券</th>
+                    <th>Xu</th>
                 }    
-                <th>最后上线时间</th>
-                <th>在线状态</th>
+                <th>Lần Online cuối cùng</th>
+                <th>Trạng thái Online</th>
             </tr>
         </thead>                  
             @if (Model.Count() > 0)

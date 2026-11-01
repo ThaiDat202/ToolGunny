@@ -112,7 +112,7 @@
                                 <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                             </span>     
                             <a href="javscript:void(0)" style="@cssstr">
-                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                             </a>
                         </li>                                              
                         cssstr = counter < 8 ? "" : bgc;
@@ -138,7 +138,7 @@
                                 <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                             </span>
                             <a href="javscript:void(0)" style="@cssstr">
-                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                             </a>
                         </li>
                         cssstr = counter < 8 ? "" : bgc;
@@ -164,7 +164,7 @@
                                 <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                             </span>
                             <a href="javscript:void(0)" style="@cssstr">
-                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                             </a>
                         </li>
                         cssstr = counter < 8 ? "" : bgc;
@@ -190,7 +190,7 @@
                                 <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                             </span>
                             <a href="javscript:void(0)" style="@cssstr">
-                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                             </a>
                         </li>
                         cssstr = counter < 8 ? "" : bgc;
@@ -213,10 +213,10 @@
             <!-- END Title -->
             <!-- Default Tabs -->
             <ul class="nav nav-tabs push" data-toggle="tabs">
-                <li class="active"><a href="#tabs-item-1">Prêmios 1</a></li>
-                <li><a href="#tabs-item-2">Prêmios 2</a></li>
-                <li><a href="#tabs-item-3">Prêmios 3</a></li>
-                <li><a href="#tabs-item-4">Prêmios 4</a></li>
+                <li class="active"><a href="#tabs-item-1">Giải thưởng 1</a></li>
+                <li><a href="#tabs-item-2">Giải thưởng 2</a></li>
+                <li><a href="#tabs-item-3">Giải thưởng 3</a></li>
+                <li><a href="#tabs-item-4">Giải thưởng 4</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="tabs-item-1">
@@ -232,7 +232,7 @@
                                         <button class="btn btn-danger open-model"  data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                                     </span>     
                                     <a href="javscript:void(0)">                                       
-                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID) <br />                                                                          
+                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID) <br />                                                                          
                                     </a>
                                 </li>
                             }
@@ -258,7 +258,7 @@
                                         <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                                     </span>     
                                     <a href="javscript:void(0)">
-                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                                     </a>
                                 </li>
                             }
@@ -284,7 +284,7 @@
                                         <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                                     </span>     
                                     <a href="javscript:void(0)">
-                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                                     </a>
                                 </li>
                             }
@@ -310,7 +310,7 @@
                                         <button class="btn btn-danger open-model" data-link="@Html.Raw(Url.Action("DeleteActiveConvertItem","Games", new { id = item.ID, tid = item.ActiveID}))"><i class="fa fa-times"></i></button>
                                     </span>     
                                     <a href="javscript:void(0)">
-                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Quantidade: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
+                                        @Html.ItemImage(item.TemplateID, "", "", "auto") <em>Số lượng: </em> <span class="span-count">@item.ItemCount</span><br /> @Html.TItemName(item.TemplateID)
                                     </a>
                                 </li>
                             }

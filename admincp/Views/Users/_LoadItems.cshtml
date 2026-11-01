@@ -20,19 +20,19 @@
     <thead>
         <tr>
             <th style="width: 80px;" class="text-center">
-                <label class="switch switch-primary" data-toggle="tooltip" title="Escolher Todos">
+                <label class="switch switch-primary" data-toggle="tooltip" title="Chọn  tất cả">
                     <input type="checkbox">
                     <span></span>
                 </label>
             </th>
-            <th style="width: 366px;" class="text-center">名称</th>
-            <th>物品ID</th>
-            <th>用户编号</th>
+            <th style="width: 366px;" class="text-center">Tên</th>
+            <th>ID mặt hàng</th>
+            <th>用户TopID</th>
             <th>背包</th>
             <th>位置</th>
-            <th>数量</th>
+            <th>Số lượng</th>
             <th>开始日期</th>
-            <th>有效期</th>
+            <th>Hiệu lực</th>
             <th style="width: 40px;" class="text-center"></th>
         </tr>
     </thead>
@@ -67,7 +67,7 @@
                     <td class="text-center">
                         <div class="btn-group btn-group-xs">
                             <a href="@Html.Raw(Url.Action("DeleteUsersData", "Users", routeValues: new { ids = item.ItemID, zid = zoneId, type = "ItemInfo", func = "loadData()" }))"
-                               data-toggle="tooltip" data-modal="deleteUsersData" title="Apagar" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                               data-toggle="tooltip" data-modal="deleteUsersData" title="Tắt" class="btn btn-danger"><i class="fa fa-times"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="btn-group btn-group-sm">
-                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="tooltip" title="Apagar item(s) obter Escolher" data-dialog="get"><i class="fa fa-times"></i></a>
+                        <a href="javascript:void(0)" class="btn btn-primary" data-toggle="tooltip" title="Tắt item(s) obter Chọn " data-dialog="get"><i class="fa fa-times"></i></a>
                     </div>
                     <div class="text-center" style="margin-top:-35px">
                         @Html.Pager(Model.PageSize, Model.PageNumber, Model.TotalItemCount, new AjaxOptions { UpdateTargetId = "table-content", LoadingElementId = "loading-bgr" }).Options(o => o
@@ -144,7 +144,7 @@
                 }).toArray();
 
                 if (_checked.length == 0) {
-                    showGrowl("Bạn Não selecionado item. Vui lòng Escolher và thử lại", 'danger');
+                    showGrowl("Bạn không được chọn item. Vui lòng chọn và thử lại", 'danger');
                     return false;
                 }
                 var url = '@Html.Raw(Url.Action("DeleteUsersData", "Users", routeValues: new {zid = zoneId, type = "ItemInfo", func = "loadData()" }))';

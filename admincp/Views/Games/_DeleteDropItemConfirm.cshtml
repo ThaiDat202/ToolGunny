@@ -1,7 +1,7 @@
 ﻿@model SqlDataProvider.Data.DropItem
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "Apagar Item";
+    ViewBag.Title = "Tắt Item";
 
     string name = StaticFunction.ItemName(Model.ItemId);
 }
@@ -20,7 +20,7 @@
         <input type="hidden" value="@name" id="Name" name="Name" />
         <input type="hidden" value="@Model.Id" id="Id" name="Id" />
         <div class="form-actions text-right">      
-            <input class="btn btn-sm btn-danger " type="submit" value="Apagar Item" />
+            <input class="btn btn-sm btn-danger " type="submit" value="Tắt Item" />
             <input class="btn btn-sm btn-success " type="button" value="Cancelar" data-dismiss="modal" />
         </div>
     </form>

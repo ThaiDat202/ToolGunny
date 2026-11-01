@@ -1,18 +1,18 @@
 ﻿@using SqlDataProvider.Data;
 @model GM.Service.Models.GameViewModel
 @{
-    ViewBag.Title = "游戏信息";
+    ViewBag.Title = "Thông tin trò chơi";
 }
 <!-- Header -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-server"></i>@ViewBag.Title<br><small>在游戏中高效，快速地管理数据 @ViewBag.Message</small>
+            <i class="gi gi-server"></i>@ViewBag.Title<br><small>Quản lý dữ liệu hiệu quả và nhanh chóng trong Trò chơi @ViewBag.Message</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
+    <li>Trang chủ</li>
     <li><a href="javascript:void(0)">@ViewBag.Title</a></li>
 </ul>
 <!-- END Header -->
@@ -24,9 +24,9 @@
             <div class="form-horizontal form-control-borderless">
                 <div class="form-group">
                     <div class="col-md-8">
-                        <select id="tables-chosen" name="tables-chosen" class="select-chosen" data-placeholder="Escolher Tabela...">
+                        <select id="tables-chosen" name="tables-chosen" class="select-chosen" data-placeholder="Lựa chọn...
                             <option value="-1"></option>
-                            <optgroup label="常用数据库">
+                            <optgroup label="Cơ sở dữ liệu thường dùng">
                                 <option value="Shop_Goods">Shop Goods</option>
                                 <option value="Quest">Quest</option>
 								<option value="Shop_Goods_Box">Shop Goods Box</option>
@@ -43,7 +43,7 @@
             <div id="cart-holder" style="display:none">
                 <a href="@Html.Raw(Url.Action("Index", "Cart"))" data-modal="showcart">
                     <i style="font-size:22px" class="hi hi-shopping-cart cart-anchor"></i>
-                    购物车中的物品 (<span id="items-in-cart">@Model.CartCount</span>)
+                    Items trong giỏ hàng (<span id="items-in-cart">@Model.CartCount</span>)
                 </a>                
             </div>            
         </div>
@@ -53,7 +53,7 @@
                     <div class="form-group">
                         <div class="col-md-12">
                             <div class="input-group">
-                                <input type="text" id="quick-search-all" name="key" class="form-control" placeholder="搜索...">
+                                <input type="text" id="quick-search-all" name="key" class="form-control" placeholder="Tìm kiếm...">
                                 <span class="input-group-btn">
                                     <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
                                 </span>
@@ -71,7 +71,7 @@
 <div class="block">
     <!-- Table Styles Title -->
     <div class="block-title">
-        <h2>表<strong id="table-name">未被选中</strong></h2>
+        <h2>Danh sách<strong id="table-name">không được chọn</strong></h2>
         <div id="total-items-content" class="pull-right" style="margin-top:10px; margin-right:15px;"></div>
     </div>
     <!-- END Table Styles Title -->

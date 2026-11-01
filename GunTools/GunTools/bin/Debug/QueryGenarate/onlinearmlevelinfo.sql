@@ -1,0 +1,10 @@
+﻿INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (1, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (2, 25000, 40000, 40000, 40000, 40000, 30, 30, 30, 30);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (3, 225000, 160000, 160000, 160000, 160000, 60, 60, 60, 60);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (4, 1225000, 440000, 440000, 440000, 440000, 90, 90, 90, 90);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (5, 3725000, 1040000, 1040000, 1040000, 1040000, 120, 120, 120, 120);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (6, 0, 2240000, 2240000, 2240000, 2240000, 150, 150, 150, 150);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (7, 0, 4640000, 4640000, 4640000, 4640000, 180, 180, 180, 180);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (8, 0, 9040000, 9040000, 9040000, 9040000, 210, 210, 210, 210);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (9, 0, 16540000, 16540000, 16540000, 16540000, 240, 240, 240, 240);
+INSERT INTO OnlineArmLevelInfo (LevelCount, PickAxeExp, HeadExp, ClothExp, SwordExp, ShieldExp, Attack, Defence, Agility, Lucky) VALUES (10, 0, 28540000, 28540000, 28540000, 28540000, 270, 270, 270, 270);

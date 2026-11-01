@@ -1,30 +1,30 @@
 ﻿@model GM.Service.Models.IndexViewModel
 @{
-    ViewBag.Title = "账号管理";
+    ViewBag.Title = "Quản lý tài khoản";
 }
 
     <!-- Header -->
     <div class="content-header">
         <div class="header-section">
             <h1>
-                <i class="gi gi-circle_question_mark"></i>@ViewBag.Title<br><small>更改你的账号设置.</small>
+                <i class="gi gi-circle_question_mark"></i>@ViewBag.Title<br><small>Thay đổi cài đặt tài khoản của bạn.</small>
             </h1>
         </div>
     </div>
     <ul class="breadcrumb breadcrumb-top">
-        <li>主页</li>
+        <li>Trang chủ</li>
         <li><a href="javascript:void(0)">@ViewBag.Title</a></li>
     </ul>
     <!-- END Header -->
     <div class="block">
         <dl class="dl-horizontal">
-            <dt>密码服务:</dt>
+            <dt>Dịch Vụ Đổi Mật Khẩu:</dt>
             <dd>
                 [
                 @if (Model.HasPassword)
                 {
-                    @*Html.ActionLink("更改密码", "ChangePassword", routeValues: null, htmlAttributes: new { onclick = "CallSetting()" })*@
-                    <a href="javascript:void(0)" onclick="CallSetting()">更改密码</a>
+                    @*Html.ActionLink("Đổi Mật Khẩu", "ChangePassword", routeValues: null, htmlAttributes: new { onclick = "CallSetting()" })*@
+                    <a href="javascript:void(0)" onclick="CallSetting()">Đổi Mật Khẩu</a>
                 }
                 else
                 {

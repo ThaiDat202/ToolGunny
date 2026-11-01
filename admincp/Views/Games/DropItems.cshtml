@@ -1,25 +1,25 @@
 ﻿@{
-    ViewBag.Title = "副本道具掉落";
+    ViewBag.Title = "Sao chép đạo cụ thả";
 }
 
 <!-- Blank Alternative Header -->
 <div class="content-header">
     <div class="header-section">
         <h1>
-            <i class="gi gi-cloud-download"></i>@ViewBag.Title<br><small>在这里你可以随意修改游戏中副本的道具掉落!</small>
+            <i class="gi gi-cloud-download"></i>@ViewBag.Title<br><small>Tại đây, bạn có thể tự do sửa đổi điểm rơi của dungeon trong trò chơi!</small>
         </h1>
     </div>
 </div>
 <ul class="breadcrumb breadcrumb-top">
-    <li>主页</li>
-    <li>游戏</li>
-    <li><a href="javascript:void(0)">副本道具掉落</a></li>
+    <li>Trang chủ</li>
+    <li>Games</li>
+    <li><a href="javascript:void(0)">Sao chép đạo cụ thả</a></li>
 </ul>
 <!-- END Blank Alternative Header -->
 
 <!-- Blank Alternative Content -->
 <div class="block block-alt-noborder">
-    <h3 class="sub-header">副本掉落系统<small>非常完美的一个功能,使用便捷.</small> 
+    <h3 class="sub-header">Sao chép hệ thống thả<small>Một chức năng rất hoàn hảo, dễ sử dụng.</small> 
 
     </h3>
     <!-- HTML -->   
@@ -33,13 +33,13 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <a href="@Html.Raw(Url.Action("CreateDropCondiction","Games"))" class="btn btn-alt btn-sm btn-default" data-dialog="adddrop"
-                                       data-toggle="tooltip" title="点击此处添加副本掉落">
-                                        <i class="gi gi-circle_plus text-primary"></i> 查看更多
+                                       data-toggle="tooltip" title="Nhấn vào đây để thêm một bản sao thả">
+                                        <i class="gi gi-circle_plus text-primary"></i> Xem thêm
                                     </a>
                                 </div>
                                 <div class="col-md-8">      
                                     <form action="./" method="post" class="form-horizontal" id="frm-quick-search-drop" onsubmit="return false;">
-                                        <input type="text" id="quick-search-drop" name="key" style="margin-top:3px"  class="form-control" placeholder="请输入要搜索的副本ID...">
+                                        <input type="text" id="quick-search-drop" name="key" style="margin-top:3px"  class="form-control" placeholder="Vui lòng nhập ID bản sao để tìm kiếm...">
                                     </form>
                                 </div>
                             </div>
@@ -62,10 +62,10 @@
                     <!-- TopAward Title -->
                     <div class="block-title clearfix">
                         <div class="block-options">
-                            掉落条件 <i class="gi gi-chevron-right" style="font-size:8px"></i> <span id="drop-items-header" class="text-success">未选中..</span>
+                            Điều kiện thả <i class="gi gi-chevron-right" style="font-size:8px"></i> <span id="drop-items-header" class="text-success">Không được chọn..</span>
                             <a href="@Html.Raw(Url.Action("AddItemsModel","Games", new { type = "dropitems" }))" class="btn btn-alt btn-sm btn-default pull-right"
                                data-dialog="-1" id="btn-add-drop-items" style="margin-top:4px">
-                                <i class="fa fa-pencil text-success"></i> 更多道具
+                                <i class="fa fa-pencil text-success"></i> Thêm đạo cụ
                             </a>
                         </div>
                     </div>

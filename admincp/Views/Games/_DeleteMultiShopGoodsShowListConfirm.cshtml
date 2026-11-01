@@ -1,7 +1,7 @@
 ﻿@model List<SqlDataProvider.Data.ShopItemInfo>
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "Apagar Item";
+    ViewBag.Title = "Tắt Item";
 }
 <div class="modal-header themed-background-fire" style="color:white;">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -22,7 +22,7 @@
     <form action="@Html.Raw(Url.Action("DeleteMultiShopGoodsShowList", "Games",  new { ids = Request.QueryString["ids"], type = Request.QueryString["type"], func = "loadShopShow()"}))"
           class="form-horizontal" id="form-confirm" method="post" role="form">       
         <div class="form-actions text-right">
-            <input class="btn btn-sm btn-danger " type="submit" value="Apagar Item" />
+            <input class="btn btn-sm btn-danger " type="submit" value="Tắt Item" />
             <input class="btn btn-sm btn-success " type="button" value="Cancelar" data-dismiss="modal" />
         </div>
     </form>

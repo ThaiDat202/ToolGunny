@@ -13,7 +13,7 @@
                         <input type="checkbox" id="check-all" name="check-all"><span></span>
                     </label>
                 </th>
-                <th style="width: 276px;" class="text-center">名称</th>
+                <th style="width: 276px;" class="text-center">Tên</th>
                 <th class="text-center">
                     AValue
                 </th>
@@ -21,7 +21,7 @@
                     BValue
                 </th>
                 <th>
-                    操作
+                    vận hành
                 </th>
             </tr>
         </thead>
@@ -54,10 +54,10 @@
                         <td>
                             <div class="col-xs-12" style="margin-bottom:-15px">
                                 <span class="text-primary">
-                                    <em>金额: </em>@Html.TUnset(item.AValue1)
+                                    <em>Xu: </em>@Html.TUnset(item.AValue1)
                                 </span>
                                 <p>
-                                    <span class="text-success"><em>类型: </em>@Html.TPayment(item.APrice1)</span>
+                                    <span class="text-success"><em>Loại: </em>@Html.TPayment(item.APrice1)</span>
                                     @if (item.AUnit > 0)
                                     {
                                         <span class="pull-right text-warning" style="font-size:11px">@Html.TBuyType(item.AUnit, item.BuyType)</span>
@@ -68,10 +68,10 @@
                         <td>
                             <div class="col-xs-12" style="margin-bottom:-15px">
                                 <span class="text-primary">
-                                    <em>金额: </em>@Html.TUnset(item.BValue1)
+                                    <em>Xu: </em>@Html.TUnset(item.BValue1)
                                 </span>
                                 <p>
-                                    <span class="text-success"><em>类型: </em>@Html.TPayment(item.BPrice1)</span>
+                                    <span class="text-success"><em>Loại: </em>@Html.TPayment(item.BPrice1)</span>
                                     @if (item.BUnit > 0)
                                     {
                                         <span class="pull-right text-warning" style="font-size:11px">@Html.TBuyType(item.BUnit, item.BuyType)</span>
@@ -82,9 +82,9 @@
                         <td class="text-center">
                             <div class="btn-group btn-group-xs">
                                 <a href="@Html.Raw(Url.Action("EditShopItem","Games", new { id = item.ID, type = "shopshow"}))" class="btn btn-xs btn-warning"
-                                 data-toggle="tooltip"  title="编辑"  data-modal="editshopshow"><i class="gi gi-edit"></i></a>
+                                 data-toggle="tooltip"  title="Chỉnh sửa"  data-modal="editshopshow"><i class="gi gi-edit"></i></a>
                                 <a href="@Url.Action("DeleteShopGoodsShowList", "Games", routeValues: new { id = item.ID, type = ViewData["type"] })" data-modal="deleteshopshow"
-                                 data-toggle="tooltip"  title="删除" class="btn btn-danger"><i class="fa fa-times"></i></a>
+                                 data-toggle="tooltip"  title="Xóa" class="btn btn-danger"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -108,7 +108,7 @@
 <div class="row">
     <div class="col-md-3">
         <div class="btn-group btn-group-sm">
-            <a href="@Html.Raw(Url.Action("DeleteMultiShopGoodsShowList", "Games", new {type = ViewData["type"]}))" class="btn btn-warning" id="delete-select-items" data-toggle="tooltip" title="Apagar items obter Escolher" data-dialog="get"><i class="fa fa-times"></i></a>
+            <a href="@Html.Raw(Url.Action("DeleteMultiShopGoodsShowList", "Games", new {type = ViewData["type"]}))" class="btn btn-warning" id="delete-select-items" data-toggle="tooltip" title="Tắt items obter Chọn " data-dialog="get"><i class="fa fa-times"></i></a>
             <a href="@Html.Raw(Url.Action("InvertPlaceShopGoodsShow", "Games", new { type = ViewData["type"] }))" class="btn btn-danger" id="invert-place-items" data-toggle="tooltip" title="Atualizar itens" data-dialog="get"><i class="gi gi-roundabout"></i></a>
         </div>
     </div>
@@ -124,7 +124,7 @@
         </div>
     </div>
     <div class="col-md-3">
-        <a href="@Html.Raw(Url.Action("SendReloadToService", "Service", new { cmd = "shop" }))" class="btn btn-sm btn-info pull-right" id="btn-schema-xml">Atualizar XML</a>
+        <a href="@Html.Raw(Url.Action("SendReloadToService", "Service", new { cmd = "shop" }))" class="btn btn-sm btn-info pull-right" id="btn-schema-xml">Cập nhật XML</a>
     </div>
 </div>
 @section Scripts{
@@ -169,7 +169,7 @@
                 }).toArray();
 
                 if (checked.length === 0) {
-                    showGrowl('Bạn Não selecionado item. Vui lòng Escolher và thử lại', 'danger');
+                    showGrowl('Bạn không được chọn item. Vui lòng chọn và thử lại', 'danger');
                     return false;
                 }
                 var params = 'ids=' + checked;

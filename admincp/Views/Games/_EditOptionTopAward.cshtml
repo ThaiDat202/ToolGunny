@@ -1,7 +1,7 @@
 ﻿@model List<SqlDataProvider.Data.TopAwardInfo>
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "更新参数";
+    ViewBag.Title = "Refresh参数";
     string cssActive = "active";
     int counterList = 0;
     int counterExits = 0;
@@ -26,7 +26,7 @@
             <div class="block full">
                 <!-- Navigation Title -->
                 <div class="block-title">
-                    <h2><i class="fa fa-compass"></i><strong> 道具列表</strong></h2>
+                    <h2><i class="fa fa-compass"></i><strong> Danh sách đạo cụ</strong></h2>
                 </div>
                 <!-- END Navigation Title -->
                 <!-- Filter by Type links -->
@@ -120,39 +120,39 @@
                                     <div class="row">
                                         <div class="@cssRowA">
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="TopID">编号</label>
+                                                <label class="col-md-4 control-label" for="TopID">TopID</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="TopID" name="TopID" class="form-control input-sm" value="@item.TopID" disabled>
                                                 </div>
                                                 <input type="hidden" id="TopID" name="TopID" value="@item.TopID">
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="Rank">排名</label>
+                                                <label class="col-md-4 control-label" for="Rank">Rank</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="Rank" name="Rank" class="form-control input-sm must-digits" value="@item.Rank">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="TemplateID">道具ID</label>
+                                                <label class="col-md-4 control-label" for="TemplateID">TemplateID</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="TemplateID" name="TemplateID" class="form-control input-sm" value="@item.TemplateID" disabled>
                                                 </div>
                                                 <input type="hidden" id="TemplateID" name="TemplateID" value="@item.TemplateID">
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="Count">数量</label>
+                                                <label class="col-md-4 control-label" for="Count">Số lượng</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="Count" name="Count" class="form-control input-sm must-digits" value="@item.Count">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="ValidDate">有效期</label>
+                                                <label class="col-md-4 control-label" for="ValidDate">Hiệu lực</label>
                                                 <div class="col-md-8">
                                                     <input type="text" id="ValidDate" name="ValidDate" class="form-control input-sm must-digits" value="@item.ValidDate">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-4 control-label" for="IsBinds">是否绑定</label>
+                                                <label class="col-md-4 control-label" for="IsBinds">IsBinds</label>
                                                 <div class="col-md-8 text-left">
                                                     <label class="switch switch-primary">
                                                         @{
@@ -167,7 +167,7 @@
                                             @if (item.Type == 2)
                                             {
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="IsGold">是否铸金</label>
+                                                    <label class="col-md-4 control-label" for="IsGold">IsGold</label>
                                                     <div class="col-md-8 text-left">
                                                         <label class="switch switch-primary">
                                                             @{
@@ -181,7 +181,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="GoldValidate">铸金有效期</label>
+                                                    <label class="col-md-4 control-label" for="GoldValidate">Đúc vàngHiệu lực</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="GoldValidate" name="GoldValidate" class="form-control input-sm must-digits" value="@item.GoldValidate">
                                                     </div>
@@ -195,7 +195,7 @@
                                                 if (item.Type == 2)
                                                 {
                                                     <div class="form-group">
-                                                        <label class="col-md-4 control-label" for="StrengthenLevel">强化等级</label>
+                                                        <label class="col-md-4 control-label" for="StrengthenLevel">StrengthenLevel</label>
                                                         <div class="col-md-8">
                                                             <input type="text" id="StrengthenLevel" name="StrengthenLevel" class="form-control input-sm must-digits" value="@item.StrengthenLevel">
                                                         </div>
@@ -203,37 +203,37 @@
                                                     countGold++;
                                                 }
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="AttackCompose">攻击合成</label>
+                                                    <label class="col-md-4 control-label" for="AttackCompose">Tấn công</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="AttackCompose" name="AttackCompose" class="form-control input-sm must-digits" value="@item.AttackCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="DefendCompose">防御合成</label>
+                                                    <label class="col-md-4 control-label" for="DefendCompose">Phòng thủ</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="DefendCompose" name="DefendCompose" class="form-control input-sm must-digits" value="@item.DefendCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="AgilityCompose">敏捷合成</label>
+                                                    <label class="col-md-4 control-label" for="AgilityCompose">Nhanh nhẹn</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="AgilityCompose" name="AgilityCompose" class="form-control input-sm must-digits" value="@item.AgilityCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="LuckCompose">幸运合成</label>
+                                                    <label class="col-md-4 control-label" for="LuckCompose">May mắn</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="LuckCompose" name="LuckCompose" class="form-control input-sm must-digits" value="@item.LuckCompose">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="MagicAttack">魔法攻击</label>
+                                                    <label class="col-md-4 control-label" for="MagicAttack">Ma công</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="MagicAttack" name="MagicAttack" class="form-control input-sm must-digits" value="@item.MagicAttack">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-md-4 control-label" for="MagicDefend">魔法防御</label>
+                                                    <label class="col-md-4 control-label" for="MagicDefend">Ma kháng</label>
                                                     <div class="col-md-8">
                                                         <input type="text" id="MagicDefend" name="MagicDefend" class="form-control input-sm must-digits" value="@item.MagicDefend">
                                                     </div>
@@ -245,7 +245,7 @@
 
                                     <div class="form-group form-actions">
                                         <div class="col-md-12 text-right">
-                                            <button type="submit" class="btn btn-sm btn-primary btn-submit">更新</button>
+                                            <button type="submit" class="btn btn-sm btn-primary btn-submit">Refresh</button>
                                         </div>
                                     </div>
                                 </form>
@@ -261,10 +261,10 @@
                 <div class="block full">
                     <!-- Navigation Title -->
                     <div class="block-title">
-                        <h2><i class="fa fa-compass"></i><strong>快速操作栏</strong></h2>
+                        <h2><i class="fa fa-compass"></i><strong>vận hành</strong></h2>
                         <span class="text-info">
-                            更快速的<span class="text-warning"><em>设置</em></span> 和
-                            <span class="text-warning"><em>更新道具属性</em></span>
+                            nhanh hơn<span class="text-warning"><em>Setting</em></span> Và
+                            <span class="text-warning"><em>Refresh properties</em></span>
                         </span>
                     </div>
                     <!-- END Navigation Title -->
@@ -272,36 +272,36 @@
                         <div class="text-right">
                             <div class="btn-group btn-group-sm quick-set">
                                 <div class="btn-group btn-group-sm dropup">
-                                    <a href="javascript:void(0)" class="btn btn-success pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> 快速设置有效期</a>
+                                    <a href="javascript:void(0)" class="btn btn-success pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> Hiệu lực </a>
                                     <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                        <li class="dropdown-header"><i class="fa fa-share pull-right"></i>所有道具</li>
+                                        <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Tất cả đạo cụ</li>
                                         <li>
-                                            <a href="javascript:SetValidate(0)">永久</a>
-                                            <a href="javascript:SetValidate(3)">3 天</a>
-                                            <a href="javascript:SetValidate(7)">7 天</a>
-                                            <a href="javascript:SetValidate(15)">15 天</a>
-                                            <a href="javascript:SetValidate(30)">30 天</a>
-                                            <a href="javascript:SetValidate(365)">365 天</a>
+                                            <a href="javascript:SetValidate(0)">Vĩnh viễn</a>
+                                            <a href="javascript:SetValidate(3)">3 ngày</a>
+                                            <a href="javascript:SetValidate(7)">7 ngày</a>
+                                            <a href="javascript:SetValidate(15)">15 ngày</a>
+                                            <a href="javascript:SetValidate(30)">30 ngày</a>
+                                            <a href="javascript:SetValidate(365)">365 ngày</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="btn-group btn-group-sm quick-set">
                                 <div class="btn-group btn-group-sm dropup">
-                                    <a href="javascript:void(0)" class="btn btn-primary pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> 快速设置排名</a>
+                                    <a href="javascript:void(0)" class="btn btn-primary pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> Rank</a>
                                     <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                        <li class="dropdown-header"><i class="fa fa-share pull-right"></i>所有道具</li>
+                                        <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Tất cả</li>
                                         <li>
-                                            <a href="javascript:SetRank(1)">第 1 名</a>
-                                            <a href="javascript:SetRank(2)">第 2 名</a>
-                                            <a href="javascript:SetRank(3)">第 3 名</a>
-                                            <a href="javascript:SetRank(4)">第 4 名</a>
-                                            <a href="javascript:SetRank(5)">第 5 名</a>
-                                            <a href="javascript:SetRank(6)">第 6 名</a>
-                                            <a href="javascript:SetRank(7)">第 7 名</a>
-                                            <a href="javascript:SetRank(8)">第 8 名</a>
-                                            <a href="javascript:SetRank(9)">第 9 名</a>
-                                            <a href="javascript:SetRank(10)">第 10 名</a>
+                                            <a href="javascript:SetRank(1)">No.1</a>
+                                            <a href="javascript:SetRank(2)">No.2</a>
+                                            <a href="javascript:SetRank(3)">No.3</a>
+                                            <a href="javascript:SetRank(4)">No.4</a>
+                                            <a href="javascript:SetRank(5)">No.5</a>
+                                            <a href="javascript:SetRank(6)">No.6</a>
+                                            <a href="javascript:SetRank(7)">No.7</a>
+                                            <a href="javascript:SetRank(8)">No.8</a>
+                                            <a href="javascript:SetRank(9)">No.9</a>
+                                            <a href="javascript:SetRank(10)">No.10</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -310,15 +310,15 @@
                             {
                                 <div class="btn-group btn-group-sm quick-set">
                                     <div class="btn-group btn-group-sm dropup">
-                                        <a href="javascript:void(0)" class="btn btn-danger pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> 快速设置铸金</a>
+                                        <a href="javascript:void(0)" class="btn btn-danger pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> Đúc vàng</a>
                                         <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                            <li class="dropdown-header"><i class="fa fa-share pull-right"></i>所有道具</li>
+                                            <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Tất cả</li>
                                             <li>
-                                                <a href="javascript:SetGold(0)">全部取消铸金</a>
-                                                <a href="javascript:SetGold(7)">铸金设置 7 天</a>
-                                                <a href="javascript:SetGold(30)">铸金设置 30 天</a>
-                                                <a href="javascript:SetGold(60)">铸金设置 60 天</a>
-                                                <a href="javascript:SetGold(120)">铸金设置 120 天</a>
+                                                <a href="javascript:SetGold(0)">Không đúc vàng</a>
+                                                <a href="javascript:SetGold(7)">7 ngày</a>
+                                                <a href="javascript:SetGold(30)">30 ngày</a>
+                                                <a href="javascript:SetGold(60)">60 ngày</a>
+                                                <a href="javascript:SetGold(120)">120 ngày</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -328,25 +328,25 @@
                             {
                                 <div class="btn-group btn-group-sm quick-set">
                                     <div class="btn-group btn-group-sm dropup">
-                                        <a href="javascript:void(0)" class="btn btn-info pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> 快速设置合成属性</a>
+                                        <a href="javascript:void(0)" class="btn btn-info pull-right dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> Hợp thành</a>
                                         <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
-                                            <li class="dropdown-header"><i class="fa fa-share pull-right"></i>所有道具</li>
+                                            <li class="dropdown-header"><i class="fa fa-share pull-right"></i>Tất cả</li>
                                             <li>
-                                                <a href="javascript:Compose(0)">合成+ 0</a>
-                                                <a href="javascript:Compose(20)">合成+ 20</a>
-                                                <a href="javascript:Compose(20)">合成+ 20</a>
-                                                <a href="javascript:Compose(50)">合成+ 50</a>
-                                                <a href="javascript:Compose(100)">合成+ 100</a>
-                                                <a href="javascript:Compose(150)">合成+ 150</a>
-                                                <a href="javascript:Compose(200)">合成+ 200</a>
-                                                <a href="javascript:Compose(250)">合成+ 250</a>
-                                                <a href="javascript:Compose(500)">合成+ 500</a>
+                                                <a href="javascript:Compose(0)"> + 0</a>
+                                                <a href="javascript:Compose(20)"> + 20</a>
+                                                <a href="javascript:Compose(20)"> + 20</a>
+                                                <a href="javascript:Compose(50)"> + 50</a>
+                                                <a href="javascript:Compose(100)"> + 100</a>
+                                                <a href="javascript:Compose(150)"> + 150</a>
+                                                <a href="javascript:Compose(200)"> + 200</a>
+                                                <a href="javascript:Compose(250)"> + 250</a>
+                                                <a href="javascript:Compose(500)"> + 500</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             }
-                        <button type="button" class="btn btn-sm btn-warning btn-submit-all">更新所有道具</button>
+                        <button type="button" class="btn btn-sm btn-warning btn-submit-all">Refresh</button>
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
 <div class="modal-footer">
     <div class="form-actions">
         <div class="text-left">
-            <button type="button" class="btn btn-sm btn-primary pull-right btn-close" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-sm btn-primary pull-right btn-close" data-dismiss="modal">Đóng</button>
         </div>
     </div>
 </div>

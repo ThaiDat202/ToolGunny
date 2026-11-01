@@ -15,9 +15,9 @@
                     @Html.ItemImage(item.TemplateID, "thumbnail", "", "64")
                 </a>
                 <div class="media-body">
-                    <span class="text-warning pull-right"><small><em>排名:<i class="gi gi-chevron-right" style="font-size:8px"></i>第 @item.Rank 名</em></small></span>
+                    <span class="text-warning pull-right"><small><em>Rank:<i class="gi gi-chevron-right" style="font-size:8px"></i>第 @item.Rank 名</em></small></span>
                     <a href="javascript:void(0)"><strong>@item.Name</strong></a>
-                    <div><em>物品ID:</em> @item.TemplateID | <em>数量:</em> @item.Count</div>
+                    <div><em>ID mặt hàng:</em> @item.TemplateID | <em>Số lượng:</em> @item.Count</div>
                     <span class="btn-group">
                         <a href="@Html.Raw(Url.Action("EditItemInBag","Games", new { id = item.TemplateID, type = Request.QueryString["type"]}))" class="btn btn-xs btn-success"
                            data-modal="editTopAwardInBag"><i class="fa fa-pencil"></i></a>

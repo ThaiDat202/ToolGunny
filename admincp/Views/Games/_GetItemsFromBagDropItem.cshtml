@@ -17,7 +17,7 @@
                 <div class="media-body">
                     <span class="text-warning pull-right"><small><em>drop Id <i class="gi gi-chevron-right" style="font-size:8px"></i>@item.DropId</em></small></span>
                     <a href="javascript:void(0)"><strong>@StaticFunction.ItemName(item.ItemId);</strong></a>
-                    <div><em>TemplateID:</em> @item.ItemId | <em>Quantidade:</em> @item.BeginData</div>
+                    <div><em>TemplateID:</em> @item.ItemId | <em>Số lượng:</em> @item.BeginData</div>
                     <span class="btn-group">
                         <a href="@Html.Raw(Url.Action("EditItemInBag","Games", new { id = item.Id, type = Request.QueryString["type"]}))" class="btn btn-xs btn-success"
                            data-modal="editDropItemInBag"><i class="fa fa-pencil"></i></a>

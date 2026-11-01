@@ -24,9 +24,9 @@
                         }
                         @if (item.ItemType == 1 || item.ItemType == 3 || item.ItemType == 5 || item.ItemType == 7)
                         {
-                             <em class="text-success">Prêmios @StaticFunction.ItemType(item.ItemType)</em>
+                             <em class="text-success">Giải thưởng @StaticFunction.ItemType(item.ItemType)</em>
                         }
-                        | <em>Quantidade:</em> @item.ItemCount       
+                        | <em>Số lượng:</em> @item.ItemCount       
                     </div>
                     <span class="btn-group">
                         <a href="@Html.Raw(Url.Action("EditItemInBag","Games", new { id = item.TemplateID, type = "activeconvert" }))" class="btn btn-xs btn-warning"

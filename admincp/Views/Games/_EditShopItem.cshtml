@@ -1,7 +1,7 @@
 ﻿@model SqlDataProvider.Data.ShopItemInfo
 @{
     Layout = "~/Views/Shared/_RenderLayout.cshtml";
-    ViewBag.Title = "Editar Parâmetros";
+    ViewBag.Title = "Chỉnh sửa thông số";
     var item = Model;
     string chek = string.Empty;
 
@@ -28,21 +28,21 @@
                     <input type="hidden" id="ID" name="ID" value="@item.ID">
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="ItemId">物品ID</label>
+                    <label class="col-md-3 control-label" for="ItemId">Item ID</label>
                     <div class="col-md-9">
                         <input type="text" class="form-control input-sm" value="@item.TemplateID" disabled>
                     </div>
                     <input type="hidden" id="TemplateID" name="TemplateID" value="@item.TemplateID">
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="GroupID">分组ID</label>
+                    <label class="col-md-3 control-label" for="GroupID">Group ID</label>
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-sm-4">
                                 <input type="text" id="GroupID" name="GroupID" class="form-control input-sm must-digits" value="@item.GroupID">
                             </div>                           
                             <div class="col-sm-8">
-                                <label class="col-sm-5 control-label" for="ShopID">商城ID</label>
+                                <label class="col-sm-5 control-label" for="ShopID">ShopID</label>
                                 <div class="col-sm-7">
                                     <input type="text" id="ShopID" name="ShopID" class="form-control input-sm must-digits" value="@item.ShopID">
                                 </div>
@@ -51,19 +51,19 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="BuyType">购买类型</label>
+                    <label class="col-md-3 control-label" for="BuyType">BuyType</label>
                     <div class="col-md-9">
                         <input type="text" id="BuyType" name="BuyType" class="form-control input-sm must-digits" value="@item.BuyType">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="IsBind">是否绑定</label>
+                    <label class="col-md-3 control-label" for="IsBind">IsBind</label>
                     <div class="col-md-9">
                         <input type="text" id="IsBind" name="IsBind" class="form-control input-sm must-digits" value="@item.IsBind">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="LabelD">Label</label>
+                    <label class="col-md-3 control-label" for="LabelD">LabelID</label>
                     <div class="col-md-9">
                         <input type="text" id="Label" name="Label" class="form-control input-sm must-digits" value="@item.Label">
                     </div>
@@ -87,13 +87,13 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="StartDate">开始售卖时间</label>
+                    <label class="col-md-3 control-label" for="StartDate">StartDate</label>
                     <div class="col-md-9">
                         <input type="text" id="StartDate" name="StartDate" class="form-control input-sm must-date" value="@item.StartDate">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="EndDate">结束时间</label>
+                    <label class="col-md-3 control-label" for="EndDate">Ngày kết thúc</label>
                     <div class="col-md-9">
                         <input type="text" id="EndDate" name="EndDate" class="form-control input-sm must-date" value="@item.EndDate">
                     </div>
@@ -101,7 +101,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="AUnit">单组数量</label>
+                    <label class="col-md-3 control-label" for="AUnit">AUnit</label>
                     <div class="col-md-9">
                         <input type="text" id="AUnit" name="AUnit" class="form-control input-sm must-number" value="@item.AUnit">
                     </div>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="AValue1">单组价格</label>
+                    <label class="col-md-3 control-label" for="AValue1">AValue1</label>
                     <div class="col-md-9">
                         <input type="text" id="AValue1" name="AValue1" class="form-control input-sm must-number" value="@item.AValue1">
                     </div>
@@ -123,7 +123,7 @@
                 <input type="hidden" id="APrice3" name="APrice3" value="@item.APrice3">
                 <input type="hidden" id="AValue3" name="AValue3" value="@item.AValue3">
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="BUnit">多组数量</label>
+                    <label class="col-md-3 control-label" for="BUnit">BUnit</label>
                     <div class="col-md-9">
                         <input type="text" id="BUnit" name="BUnit" class="form-control input-sm must-number" value="@item.BUnit">
                     </div>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="BValue1">多组价格</label>
+                    <label class="col-md-3 control-label" for="BValue1">BValue1</label>
                     <div class="col-md-9">
                         <input type="text" id="BValue1" name="BValue1" class="form-control input-sm must-number" value="@item.BValue1">
                     </div>
@@ -145,7 +145,7 @@
                 <input type="hidden" id="BPrice3" name="BPrice3" value="@item.BPrice3">
                 <input type="hidden" id="BValue3" name="BValue3" value="@item.BValue3">
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="CUnit">多组数量</label>
+                    <label class="col-md-3 control-label" for="CUnit">CUnit</label>
                     <div class="col-md-9">
                         <input type="text" id="CUnit" name="CUnit" class="form-control input-sm must-number" value="@item.CUnit">
                     </div>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-md-3 control-label" for="CValue1">多组价格</label>
+                    <label class="col-md-3 control-label" for="CValue1">CValue1</label>
                     <div class="col-md-9">
                         <input type="text" id="CValue1" name="CValue1" class="form-control input-sm must-number" value="@item.CValue1">
                     </div>
@@ -222,7 +222,7 @@
 
         <div class="form-group form-actions">
             <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-sm btn-warning btn-submit2"> 更新</button>
+                <button type="submit" class="btn btn-sm btn-warning btn-submit2"> Refresh</button>
                 <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Fechado</button>
             </div>
         </div>

@@ -44,25 +44,25 @@
                             }                            
                         </span><br>
                         <small style="font-size:12px">
-                            <em>概率:</em><span class="text-success"> @item.Random </span><br>
+                            <em>Tỷ lệ:</em><span class="text-success"> @item.Random </span><br>
                         </small>
                         <small style="font-size:12px">
-                            <em>数量:</em> @if (item.BeginData != item.EndData)
+                            <em>Số lượng:</em> @if (item.BeginData != item.EndData)
                             { <span class="text-success"> 随机 </span> }
                             else
                             { <span class="text-info">@item.BeginData </span> }
                         </small><br>
                         <small style="font-size:12px">
-                            <em>有效期:</em> @if (item.ValueDate == 0)
-                            { <span class="text-success"> 永久 </span> }
+                            <em>Hiệu lực:</em> @if (item.ValueDate == 0)
+                            { <span class="text-success"> Vĩnh viễn </span> }
                             else
-                            { <span class="text-info">@item.ValueDate 天 </span> }
+                            { <span class="text-info">@item.ValueDate ngày </span> }
                         </small><br>
                         <small style="font-size:12px">
-                            <em>是否绑定:</em> @if (item.IsBind)
-                            { <span class="text-danger"> 绑定</span> }
+                            <em>Có khóa hay không khóa:</em> @if (item.IsBind)
+                            { <span class="text-danger"> Khóa</span> }
                             else
-                            { <span class="text-success"> 未绑定 </span> }
+                            { <span class="text-success"> Không Khóa </span> }
                         </small>
                     </h4>
                 </div>
@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <a href="@Html.Raw(Url.Action("SendReloadToService", "Service", new { cmd = "drop" }))" class="btn btn-sm btn-success pull-right" id="btn-schema-xml">更新游戏服务</a>
+                <a href="@Html.Raw(Url.Action("SendReloadToService", "Service", new { cmd = "drop" }))" class="btn btn-sm btn-success pull-right" id="btn-schema-xml">Refresh</a>
             </div>
         </div>
 }
